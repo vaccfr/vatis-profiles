@@ -1464,7 +1464,7 @@
         {
           "id": "3a33ef81-5f7c-46c0-b6f6-96b349c73639",
           "name": "LFMN 04 RNP A",
-          "airportConditions": "EXPECTED APPROACH RNP A. LANDING RUNWAY 04L. TAKEOFF RUNWAY 04R. EXPECT DEPARTURE 7A AND 7B",
+          "airportConditions": "EXPECTED APPROACH RNP A THEN VPT A RWY 04L. LANDING RUNWAY 04L. TAKEOFF RUNWAY 04R. EXPECT DEPARTURE 7A AND 7B",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
           "externalGenerator": {
             "enabled": false
@@ -1473,7 +1473,7 @@
         {
           "id": "6994627e-6062-4245-a6bf-a68a6a1c75c1",
           "name": "LFMN 04 RNP Z",
-          "airportConditions": "EXPECTED APPROACH RNP Z. LANDING RUNWAY 04L. TAKEOFF RUNWAY 04R. EXPECT DEPARTURE 7A AND 7B",
+          "airportConditions": "EXPECTED APPROACH RNP Z RWY 04L. LANDING RUNWAY 04L. TAKEOFF RUNWAY 04R. EXPECT DEPARTURE 7A AND 7B",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
           "externalGenerator": {
             "enabled": false
@@ -1482,7 +1482,7 @@
         {
           "id": "705b5fed-af17-4d46-ad43-419676337b91",
           "name": "LFMN 22",
-          "airportConditions": "EXPECTED APPROACH RNP D. LANDING RUNWAY 22R. TAKEOFF RUNWAY 22L. EXPECT DEPARTURE 7X AND 7Y",
+          "airportConditions": "EXPECTED APPROACH RNP D THEN VPT D RWY 22R. LANDING RUNWAY 22R. TAKEOFF RUNWAY 22L. EXPECT DEPARTURE 7X AND 7Y",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
           "externalGenerator": {
             "enabled": false
@@ -1501,6 +1501,14 @@
         {
           "string": "RNP D",
           "spoken": "R-EN-P DELTA"
+        },
+        {
+          "string": "VPT A",
+          "spoken": "V-P-T ALPHA"
+        },
+        {
+          "string": "VPT D",
+          "spoken": "V-P-T DELTA"
         },
         {
           "string": "7A",
