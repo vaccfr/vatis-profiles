@@ -25,7 +25,7 @@
         {
           "id": "24f418d4-5ecd-499d-8817-49be2b84c216",
           "name": "LFPG 08/09 EL",
-          "airportConditions": "EXPECTED APPROACH 6E 6N ILS 09L AND 6E 6N ILS 08R. LANDING RUNWAYS 09L AND 08R. TAKEOFF RUNWAYS 09R AND 08L. EXPECT DEPARTURE 5G AND 5H",
+          "airportConditions": "EXPECTED APPROACH 6E 6N ILS 09L AND 6E 6N ILS 08R. LANDING RUNWAYS 09L AND 08R. TAKEOFF RUNWAYS 09R AND 08L. SID 5G AND 5H",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
           "externalGenerator": {
             "enabled": false
@@ -34,7 +34,7 @@
         {
           "id": "46433c45-4f02-4d74-bcbd-8e9219de1f1d",
           "name": "LFPG 26/27 WL",
-          "airportConditions": "EXPECTED APPROACH 6W ILS 27R AND 6W ILS 26L. LANDING RUNWAYS 27R AND 26L. TAKEOFF RUNWAYS 27L AND 26R. EXPECT DEPARTURE 5A AND 5B",
+          "airportConditions": "EXPECTED APPROACH 6W ILS 27R AND 6W ILS 26L. LANDING RUNWAYS 27R AND 26L. TAKEOFF RUNWAYS 27L AND 26R. SID 5A AND 5B",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
           "externalGenerator": {
             "enabled": false
@@ -43,7 +43,7 @@
         {
           "id": "41817aa5-6464-4449-954f-f50002405587",
           "name": "LFPG 08/09 EI",
-          "airportConditions": "EXPECTED APPROACH 6E 6N ILS 09L AND 6E 6N ILS 08R. LANDING RUNWAYS 09L AND 08R. TAKEOFF RUNWAYS 09R AND 08L. EXPECT DEPARTURE 5K AND 5L",
+          "airportConditions": "EXPECTED APPROACH 6E 6N ILS 09L AND 6E 6N ILS 08R. LANDING RUNWAYS 09L AND 08R. TAKEOFF RUNWAYS 09R AND 08L. SID 5K AND 5L",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
           "externalGenerator": {
             "enabled": false
@@ -52,7 +52,7 @@
         {
           "id": "892c3007-e9fd-4887-92cb-e99d1351b357",
           "name": "LFPG 26/27 WI",
-          "airportConditions": "EXPECTED APPROACH 6W ILS 27R AND 6W ILS 26L. LANDING RUNWAYS 27R AND 26L. TAKEOFF RUNWAYS 27L AND 26R. EXPECT DEPARTURE 5D AND 5E",
+          "airportConditions": "EXPECTED APPROACH 6W ILS 27R AND 6W ILS 26L. LANDING RUNWAYS 27R AND 26L. TAKEOFF RUNWAYS 27L AND 26R. SID 5D AND 5E",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
           "externalGenerator": {
             "enabled": false
@@ -60,6 +60,10 @@
         }
       ],
       "contractions": [
+        {
+          "string": "SID",
+          "spoken": "EXPECT DEPARTURE"
+        },
         {
           "string": "RNP",
           "spoken": "R-EN-P"
@@ -399,7 +403,7 @@
         {
           "id": "0c6fa667-b19a-4def-a167-6d5a330ca8f8",
           "name": "LFPO 24/25 WL",
-          "airportConditions": "EXPECTED APPROACH 6W ILS 25. LANDING RUNWAY 25. TAKEOFF RUNWAY 24. EXPECT DEPARTURE 9W",
+          "airportConditions": "EXPECTED APPROACH 6W ILS 25. LANDING RUNWAY 25. TAKEOFF RUNWAY 24. SID 9W",
           "notams": "",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
           "externalGenerator": {
@@ -409,7 +413,7 @@
         {
           "id": "59d33953-ceb1-4678-84f1-03a2a13a1bd9",
           "name": "LFPO 07/06 EL",
-          "airportConditions": "EXPECTED APPROACH 6E ILS 06. LANDING RUNWAY 06. TAKEOFF RUNWAY 07. EXPECT DEPARTURE 9E",
+          "airportConditions": "EXPECTED APPROACH 6E ILS 06. LANDING RUNWAY 06. TAKEOFF RUNWAY 07. SID 9E",
           "notams": "",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
           "externalGenerator": {
@@ -419,7 +423,7 @@
         {
           "id": "bdb0ab47-6fa0-4803-b984-856bd66397e9",
           "name": "LFPO 24/25 WI",
-          "airportConditions": "EXPECTED APPROACH 6W ILS 25. LANDING RUNWAY 25. TAKEOFF RUNWAY 24. EXPECT DEPARTURE 9Q",
+          "airportConditions": "EXPECTED APPROACH 6W ILS 25. LANDING RUNWAY 25. TAKEOFF RUNWAY 24. SID 9Q",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
           "externalGenerator": {
             "enabled": false
@@ -428,7 +432,7 @@
         {
           "id": "7be05da3-3954-4f08-825c-80964fd0d9ba",
           "name": "LFPO 07/06 EI",
-          "airportConditions": "EXPECTED APPROACH 6E 6Y ILS 06. LANDING RUNWAY 06. TAKEOFF RUNWAY 07. EXPECT DEPARTURE 9G",
+          "airportConditions": "EXPECTED APPROACH 6E 6Y ILS 06. LANDING RUNWAY 06. TAKEOFF RUNWAY 07. SID 9G",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
           "externalGenerator": {
             "enabled": false
@@ -436,6 +440,10 @@
         }
       ],
       "contractions": [
+        {
+          "string": "SID",
+          "spoken": "EXPECT DEPARTURE"
+        },
         {
           "string": "RNP",
           "spoken": "R-EN-P"
@@ -726,7 +734,7 @@
         {
           "id": "985d0721-8049-4540-a5a7-2d8ca76009f8",
           "name": "LFPB 09/07",
-          "airportConditions": "EXPECTED APPROACH 6E ILS 09. LANDING RUNWAY 09. TAKEOFF RUNWAY 07. EXPECT DEPARTURE 5Q",
+          "airportConditions": "EXPECTED APPROACH 6E ILS 09. LANDING RUNWAY 09. TAKEOFF RUNWAY 07. SID 5Q",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
           "externalGenerator": {
             "enabled": false
@@ -735,7 +743,7 @@
         {
           "id": "cad0e3e9-105e-4f52-884a-ec99f021fe91",
           "name": "LFPB 25/27",
-          "airportConditions": "EXPECTED APPROACH 6W ILS 25. LANDING RUNWAY 25. TAKEOFF RUNWAY 27. EXPECT DEPARTURE 5C",
+          "airportConditions": "EXPECTED APPROACH 6W ILS 25. LANDING RUNWAY 25. TAKEOFF RUNWAY 27. SID 5C",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
           "externalGenerator": {
             "enabled": false
@@ -743,6 +751,10 @@
         }
       ],
       "contractions": [
+        {
+          "string": "SID",
+          "spoken": "EXPECT DEPARTURE"
+        },
         {
           "string": "RNP",
           "spoken": "R-EN-P"
@@ -1021,7 +1033,7 @@
         {
           "id": "1261750c-9c86-4a1f-8f7d-c55e16ec1327",
           "name": "LFOB 12",
-          "airportConditions": "EXPECTED APPROACH ILS. LANDING RUNWAY 12. TAKEOFF RUNWAY 12. EXPECT DEPARTURE 9S",
+          "airportConditions": "EXPECTED APPROACH ILS RWY 12. LANDING RUNWAY 12. TAKEOFF RUNWAY 12. SID 9S",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
           "externalGenerator": {
             "enabled": false
@@ -1030,7 +1042,7 @@
         {
           "id": "6379bad0-8a4a-4c19-aae7-813d5278557f",
           "name": "LFOB 30",
-          "airportConditions": "EXPECTED APPROACH ILS. LANDING RUNWAY 30. TAKEOFF RUNWAY 30. EXPECT DEPARTURE 9T",
+          "airportConditions": "EXPECTED APPROACH ILS RWY 30. LANDING RUNWAY 30. TAKEOFF RUNWAY 30. SID 9T",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
           "externalGenerator": {
             "enabled": false
@@ -1038,6 +1050,10 @@
         }
       ],
       "contractions": [
+        {
+          "string": "SID",
+          "spoken": "EXPECT DEPARTURE"
+        },
         {
           "string": "RNP",
           "spoken": "R-EN-P"
@@ -1308,7 +1324,7 @@
         {
           "id": "edaea05f-37ce-41c9-b69d-ea43fca7b3b9",
           "name": "LFQQ 08",
-          "airportConditions": "EXPECTED APPROACH RNP. LANDING RUNWAY 08. TAKEOFF RUNWAY 08. EXPECT DEPARTURE 6R",
+          "airportConditions": "EXPECTED APPROACH RNP RWY 08. LANDING RUNWAY 08. TAKEOFF RUNWAY 08. SID 6R",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
           "externalGenerator": {
             "enabled": false
@@ -1317,7 +1333,7 @@
         {
           "id": "506e2711-325d-4564-9439-92512dfabe01",
           "name": "LFQQ 26",
-          "airportConditions": "EXPECTED APPROACH ILS. LANDING RUNWAY 26. TAKEOFF RUNWAY 26. EXPECT DEPARTURE 6R",
+          "airportConditions": "EXPECTED APPROACH ILS RWY 26. LANDING RUNWAY 26. TAKEOFF RUNWAY 26. SID 6R",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
           "externalGenerator": {
             "enabled": false
@@ -1325,6 +1341,10 @@
         }
       ],
       "contractions": [
+        {
+          "string": "SID",
+          "spoken": "EXPECT DEPARTURE"
+        },
         {
           "string": "RNP",
           "spoken": "R-EN-P"

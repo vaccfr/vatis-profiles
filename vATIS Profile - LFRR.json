@@ -24,7 +24,7 @@
         {
           "id": "a2928c8b-1468-4b3c-814a-0f12f25f6d1a",
           "name": "LFRS 03",
-          "airportConditions": "EXPECTED APPROACH ILS. LANDING RUNWAY 03. TAKEOFF RUNWAY 03. EXPECT DEPARTURE 4N",
+          "airportConditions": "EXPECTED APPROACH ILS RWY 03. LANDING RUNWAY 03. TAKEOFF RUNWAY 03. SID 4N",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
           "externalGenerator": {
             "enabled": false
@@ -33,7 +33,7 @@
         {
           "id": "5dc442fa-1c3a-453a-90c8-92d8ff2d71dd",
           "name": "LFRS 21",
-          "airportConditions": "EXPECTED APPROACH RNP. LANDING RUNWAY 21. TAKEOFF RUNWAY 21. EXPECT DEPARTURE 4S",
+          "airportConditions": "EXPECTED APPROACH RNP RWY 21. LANDING RUNWAY 21. TAKEOFF RUNWAY 21. SID 4S",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
           "externalGenerator": {
             "enabled": false
@@ -41,6 +41,10 @@
         }
       ],
       "contractions": [
+        {
+          "string": "SID",
+          "spoken": "EXPECT DEPARTURE"
+        },
         {
           "string": "RNP",
           "spoken": "R-EN-P"
@@ -311,7 +315,7 @@
         {
           "id": "e7a9e558-e498-44b4-a9d8-4568c642bc08",
           "name": "LFRB 25",
-          "airportConditions": "EXPECTED APPROACH ILS. LANDING RUNWAY 25L. TAKEOFF RUNWAY 25L. EXPECT DEPARTURE 6W",
+          "airportConditions": "EXPECTED APPROACH ILS RWY 25. LANDING RUNWAY 25L. TAKEOFF RUNWAY 25L. SID 6W",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING]. CONFIRM ON INITIAL CONTACT THAT YOU HAVE RECEIVED INFORMATION [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false
@@ -320,7 +324,7 @@
         {
           "id": "bb037a81-e627-410e-9dfc-0ca96b680210",
           "name": "LFRB 07",
-          "airportConditions": "EXPECTED APPROACH RNP. LANDING RUNWAY 07R. TAKEOFF RUNWAY 07R. EXPECT DEPARTURE 6E",
+          "airportConditions": "EXPECTED APPROACH RNP RWY 07. LANDING RUNWAY 07R. TAKEOFF RUNWAY 07R. SID 6E",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING]. CONFIRM ON INITIAL CONTACT THAT YOU HAVE RECEIVED INFORMATION [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false
@@ -328,6 +332,10 @@
         }
       ],
       "contractions": [
+        {
+          "string": "SID",
+          "spoken": "EXPECT DEPARTURE"
+        },
         {
           "string": "RNP",
           "spoken": "R-EN-P"
@@ -598,7 +606,7 @@
         {
           "id": "fa7aa900-2279-4c53-97f7-3731ea16b118",
           "name": "LFRN 10",
-          "airportConditions": "EXPECTED APPROACH ILS. LANDING RUNWAY 10. TAKEOFF RUNWAY 10. EXPECT DEPARTURE 5T",
+          "airportConditions": "EXPECTED APPROACH ILS RWY 10. LANDING RUNWAY 10. TAKEOFF RUNWAY 10. SID 5T",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
           "externalGenerator": {
             "enabled": false
@@ -607,7 +615,7 @@
         {
           "id": "c6bc8603-eb1f-4a76-b4d4-e05b3ad65268",
           "name": "LFRN 28",
-          "airportConditions": "EXPECTED APPROACH ILS. LANDING RUNWAY 28. TAKEOFF RUNWAY 28. EXPECT DEPARTURE 5V AND 5W",
+          "airportConditions": "EXPECTED APPROACH ILS RWY 28. LANDING RUNWAY 28. TAKEOFF RUNWAY 28. SID 5V AND 5W",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
           "externalGenerator": {
             "enabled": false
@@ -615,6 +623,10 @@
         }
       ],
       "contractions": [
+        {
+          "string": "SID",
+          "spoken": "EXPECT DEPARTURE"
+        },
         {
           "string": "RNP",
           "spoken": "R-EN-P"
