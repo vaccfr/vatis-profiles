@@ -43,7 +43,7 @@
       "contractions": [
         {
           "string": "SID",
-          "spoken": "EXPECT DEPARTURE"
+          "spoken": "DEPARTURES"
         },
         {
           "string": "BONJOUR",
@@ -330,7 +330,7 @@
       "contractions": [
         {
           "string": "SID",
-          "spoken": "EXPECT DEPARTURE"
+          "spoken": "DEPARTURES"
         },
         {
           "string": "BONJOUR",
@@ -621,7 +621,7 @@
       "contractions": [
         {
           "string": "SID",
-          "spoken": "EXPECT DEPARTURE"
+          "spoken": "DEPARTURES"
         },
         {
           "string": "BONJOUR",
@@ -931,7 +931,7 @@
       "contractions": [
         {
           "string": "SID",
-          "spoken": "EXPECT DEPARTURE"
+          "spoken": "DEPARTURES"
         },
         {
           "string": "BONJOUR",
@@ -1226,7 +1226,7 @@
       "contractions": [
         {
           "string": "SID",
-          "spoken": "EXPECT DEPARTURE"
+          "spoken": "DEPARTURES"
         },
         {
           "string": "BONJOUR",
@@ -1513,7 +1513,7 @@
       "contractions": [
         {
           "string": "SID",
-          "spoken": "EXPECT DEPARTURE"
+          "spoken": "DEPARTURES"
         },
         {
           "string": "BONJOUR",
@@ -1800,7 +1800,7 @@
       "contractions": [
         {
           "string": "SID",
-          "spoken": "EXPECT DEPARTURE"
+          "spoken": "DEPARTURES"
         },
         {
           "string": "BONJOUR",
@@ -2087,7 +2087,7 @@
       "contractions": [
         {
           "string": "SID",
-          "spoken": "EXPECT DEPARTURE"
+          "spoken": "DEPARTURES"
         },
         {
           "string": "BONJOUR",
@@ -2374,7 +2374,7 @@
       "contractions": [
         {
           "string": "SID",
-          "spoken": "EXPECT DEPARTURE"
+          "spoken": "DEPARTURES"
         },
         {
           "string": "BONJOUR",
