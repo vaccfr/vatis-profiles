@@ -107,7 +107,7 @@
             }
           },
           "calm": {
-            "calmWindSpeed": 2,
+            "calmWindSpeed": 4,
             "template": {
               "text": "{wind}",
               "voice": "WIND CALM"
@@ -398,7 +398,7 @@
             }
           },
           "calm": {
-            "calmWindSpeed": 2,
+            "calmWindSpeed": 4,
             "template": {
               "text": "{wind}",
               "voice": "WIND CALM"
@@ -689,7 +689,7 @@
             }
           },
           "calm": {
-            "calmWindSpeed": 2,
+            "calmWindSpeed": 4,
             "template": {
               "text": "{wind}",
               "voice": "WIND CALM"
@@ -1003,7 +1003,7 @@
             }
           },
           "calm": {
-            "calmWindSpeed": 2,
+            "calmWindSpeed": 4,
             "template": {
               "text": "{wind}",
               "voice": "WIND CALM"
@@ -1290,7 +1290,7 @@
             }
           },
           "calm": {
-            "calmWindSpeed": 2,
+            "calmWindSpeed": 4,
             "template": {
               "text": "{wind}",
               "voice": "WIND CALM"
@@ -1577,7 +1577,7 @@
             }
           },
           "calm": {
-            "calmWindSpeed": 2,
+            "calmWindSpeed": 4,
             "template": {
               "text": "{wind}",
               "voice": "WIND CALM"
@@ -1864,7 +1864,7 @@
             }
           },
           "calm": {
-            "calmWindSpeed": 2,
+            "calmWindSpeed": 4,
             "template": {
               "text": "{wind}",
               "voice": "WIND CALM"
@@ -2151,7 +2151,7 @@
             }
           },
           "calm": {
-            "calmWindSpeed": 2,
+            "calmWindSpeed": 4,
             "template": {
               "text": "{wind}",
               "voice": "WIND CALM"
@@ -2438,7 +2438,7 @@
             }
           },
           "calm": {
-            "calmWindSpeed": 2,
+            "calmWindSpeed": 4,
             "template": {
               "text": "{wind}",
               "voice": "WIND CALM"
