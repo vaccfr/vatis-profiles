@@ -24,8 +24,8 @@
         {
           "id": "a2928c8b-1468-4b3c-814a-0f12f25f6d1a",
           "name": "LFRS 03",
-          "airportConditions": "EXPECTED APPROACH ILS. LANDING RUNWAY 03. TAKEOFF RUNWAY 03. EXPECT DEPARTURE 4N",
-          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
+          "airportConditions": "EXPECT ILS RWY 03. ARR RWY 03, DEP RWY 03. SID 4N",
+          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -33,8 +33,8 @@
         {
           "id": "5dc442fa-1c3a-453a-90c8-92d8ff2d71dd",
           "name": "LFRS 21",
-          "airportConditions": "EXPECTED APPROACH RNP. LANDING RUNWAY 21. TAKEOFF RUNWAY 21. EXPECT DEPARTURE 4S",
-          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
+          "airportConditions": "EXPECT RNP RWY 21. ARR RWY 21, DEP RWY 21. SID 4S",
+          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -42,8 +42,8 @@
       ],
       "contractions": [
         {
-          "string": "RNP",
-          "spoken": "R-EN-P"
+          "string": "SID",
+          "spoken": "DEPARTURES"
         },
         {
           "string": "BONJOUR",
@@ -67,7 +67,7 @@
           ],
           "template": {
             "text": "{time}Z",
-            "voice": "{time} ZULU"
+            "voice": "{time} UTC"
           }
         },
         "surfaceWind": {
@@ -107,7 +107,7 @@
             }
           },
           "calm": {
-            "calmWindSpeed": 2,
+            "calmWindSpeed": 4,
             "template": {
               "text": "{wind}",
               "voice": "WIND CALM"
@@ -187,22 +187,22 @@
             "FEW": {
               "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
               "text": "FEW{altitude}",
-              "voice": "few clouds at {altitude}"
+              "voice": "few {altitude}"
             },
             "SCT": {
               "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
               "text": "SCT{altitude}{convective}",
-              "voice": "{altitude} scattered {convective}"
+              "voice": "scattered {altitude} {convective}"
             },
             "BKN": {
               "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
               "text": "BKN{altitude}{convective}",
-              "voice": "{altitude} broken {convective}"
+              "voice": "broken {altitude} {convective}"
             },
             "OVC": {
               "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
               "text": "OVC{altitude}{convective}",
-              "voice": "{altitude} overcast {convective}"
+              "voice": "overcast {altitude} {convective}"
             },
             "VV": {
               "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
@@ -258,7 +258,7 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "Q{altimeter}",
+            "text": "QNH {altimeter}",
             "voice": "QNH {altimeter}"
           }
         },
@@ -266,7 +266,7 @@
           "values": [
             {
               "low": 1013,
-              "high": 1049,
+              "high": 1040,
               "altitude": 60
             },
             {
@@ -276,15 +276,15 @@
             }
           ],
           "template": {
-            "text": "TRANSITION LEVEL {trl}",
-            "voice": "TRANSITION LEVEL {trl}"
+            "text": "TRL {trl}",
+            "voice": "TRANSITION LEVEL {trl}."
           }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": " CONFIRM ON INITIAL CONTACT THAT YOU HAVE RECEIVED INFORMATION {letter}",
-            "voice": " CONFIRM ON INITIAL CONTACT THAT YOU HAVE RECEIVED INFORMATION {letter|word}"
+            "text": "CONFIRM ON FIRST CTC ATIS {letter} RECEIVED.",
+            "voice": "CONFIRM ON FIRST CONTACT INFORMATION {letter|word} RECEIVED"
           }
         }
       }
@@ -311,7 +311,7 @@
         {
           "id": "e7a9e558-e498-44b4-a9d8-4568c642bc08",
           "name": "LFRB 25",
-          "airportConditions": "EXPECTED APPROACH ILS. LANDING RUNWAY 25L. TAKEOFF RUNWAY 25L. EXPECT DEPARTURE 6W",
+          "airportConditions": "EXPECT ILS RWY 25L. ARR RWY 25L, DEP RWY 25L. SID 6W",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING]. CONFIRM ON INITIAL CONTACT THAT YOU HAVE RECEIVED INFORMATION [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false
@@ -320,7 +320,7 @@
         {
           "id": "bb037a81-e627-410e-9dfc-0ca96b680210",
           "name": "LFRB 07",
-          "airportConditions": "EXPECTED APPROACH RNP. LANDING RUNWAY 07R. TAKEOFF RUNWAY 07R. EXPECT DEPARTURE 6E",
+          "airportConditions": "EXPECT RNP RWY 07R. ARR RWY 07R, DEP RWY 07R. SID 6F",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING]. CONFIRM ON INITIAL CONTACT THAT YOU HAVE RECEIVED INFORMATION [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false
@@ -329,8 +329,8 @@
       ],
       "contractions": [
         {
-          "string": "RNP",
-          "spoken": "R-EN-P"
+          "string": "SID",
+          "spoken": "DEPARTURES"
         },
         {
           "string": "BONJOUR",
@@ -341,8 +341,8 @@
           "spoken": "SIX WHISKEY"
         },
         {
-          "string": "6E",
-          "spoken": "SIX ECHO"
+          "string": "6F",
+          "spoken": "SIX FOXTROT"
         }
       ],
       "airportConditionDefinitions": [],
@@ -354,7 +354,7 @@
           ],
           "template": {
             "text": "{time}Z",
-            "voice": "{time} ZULU"
+            "voice": "{time} UTC"
           }
         },
         "surfaceWind": {
@@ -394,7 +394,7 @@
             }
           },
           "calm": {
-            "calmWindSpeed": 2,
+            "calmWindSpeed": 4,
             "template": {
               "text": "{wind}",
               "voice": "WIND CALM"
@@ -474,22 +474,22 @@
             "FEW": {
               "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
               "text": "FEW{altitude}",
-              "voice": "few clouds at {altitude}"
+              "voice": "few {altitude}"
             },
             "SCT": {
               "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
               "text": "SCT{altitude}{convective}",
-              "voice": "{altitude} scattered {convective}"
+              "voice": "scattered {altitude} {convective}"
             },
             "BKN": {
               "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
               "text": "BKN{altitude}{convective}",
-              "voice": "{altitude} broken {convective}"
+              "voice": "broken {altitude} {convective}"
             },
             "OVC": {
               "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
               "text": "OVC{altitude}{convective}",
-              "voice": "{altitude} overcast {convective}"
+              "voice": "overcast {altitude} {convective}"
             },
             "VV": {
               "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
@@ -545,7 +545,7 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "Q{altimeter}",
+            "text": "QNH {altimeter}",
             "voice": "QNH {altimeter}"
           }
         },
@@ -553,7 +553,7 @@
           "values": [
             {
               "low": 1013,
-              "high": 1049,
+              "high": 1040,
               "altitude": 60
             },
             {
@@ -563,15 +563,15 @@
             }
           ],
           "template": {
-            "text": "TRANSITION LEVEL {trl}",
-            "voice": "TRANSITION LEVEL {trl}"
+            "text": "TRL {trl}",
+            "voice": "TRANSITION LEVEL {trl}."
           }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": " CONFIRM ON INITIAL CONTACT THAT YOU HAVE RECEIVED INFORMATION {letter}",
-            "voice": " CONFIRM ON INITIAL CONTACT THAT YOU HAVE RECEIVED INFORMATION {letter|word}"
+            "text": "CONFIRM ON FIRST CTC ATIS {letter} RECEIVED.",
+            "voice": "CONFIRM ON FIRST CONTACT INFORMATION {letter|word} RECEIVED"
           }
         }
       }
@@ -598,8 +598,8 @@
         {
           "id": "fa7aa900-2279-4c53-97f7-3731ea16b118",
           "name": "LFRN 10",
-          "airportConditions": "EXPECTED APPROACH ILS. LANDING RUNWAY 10. TAKEOFF RUNWAY 10. EXPECT DEPARTURE 5T",
-          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
+          "airportConditions": "EXPECT ILS RWY 10. ARR RWY 10, DEP RWY 10. SID 5T",
+          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -607,8 +607,8 @@
         {
           "id": "c6bc8603-eb1f-4a76-b4d4-e05b3ad65268",
           "name": "LFRN 28",
-          "airportConditions": "EXPECTED APPROACH ILS. LANDING RUNWAY 28. TAKEOFF RUNWAY 28. EXPECT DEPARTURE 5V AND 5W",
-          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING].",
+          "airportConditions": "EXPECT ILS RWY 28. ARR RWY 28, DEP RWY 28. SID 5V AND 5W",
+          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -616,8 +616,8 @@
       ],
       "contractions": [
         {
-          "string": "RNP",
-          "spoken": "R-EN-P"
+          "string": "SID",
+          "spoken": "DEPARTURES"
         },
         {
           "string": "BONJOUR",
@@ -645,7 +645,7 @@
           ],
           "template": {
             "text": "{time}Z",
-            "voice": "{time} ZULU"
+            "voice": "{time} UTC"
           }
         },
         "surfaceWind": {
@@ -685,7 +685,7 @@
             }
           },
           "calm": {
-            "calmWindSpeed": 2,
+            "calmWindSpeed": 4,
             "template": {
               "text": "{wind}",
               "voice": "WIND CALM"
@@ -765,22 +765,22 @@
             "FEW": {
               "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
               "text": "FEW{altitude}",
-              "voice": "few clouds at {altitude}"
+              "voice": "few {altitude}"
             },
             "SCT": {
               "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
               "text": "SCT{altitude}{convective}",
-              "voice": "{altitude} scattered {convective}"
+              "voice": "scattered {altitude} {convective}"
             },
             "BKN": {
               "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
               "text": "BKN{altitude}{convective}",
-              "voice": "{altitude} broken {convective}"
+              "voice": "broken {altitude} {convective}"
             },
             "OVC": {
               "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
               "text": "OVC{altitude}{convective}",
-              "voice": "{altitude} overcast {convective}"
+              "voice": "overcast {altitude} {convective}"
             },
             "VV": {
               "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
@@ -836,7 +836,7 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "Q{altimeter}",
+            "text": "QNH {altimeter}",
             "voice": "QNH {altimeter}"
           }
         },
@@ -844,7 +844,7 @@
           "values": [
             {
               "low": 1013,
-              "high": 1049,
+              "high": 1040,
               "altitude": 60
             },
             {
@@ -854,15 +854,15 @@
             }
           ],
           "template": {
-            "text": "TRANSITION LEVEL {trl}",
-            "voice": "TRANSITION LEVEL {trl}"
+            "text": "TRL {trl}",
+            "voice": "TRANSITION LEVEL {trl}."
           }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": " CONFIRM ON INITIAL CONTACT THAT YOU HAVE RECEIVED INFORMATION {letter}",
-            "voice": " CONFIRM ON INITIAL CONTACT THAT YOU HAVE RECEIVED INFORMATION {letter|word}"
+            "text": "CONFIRM ON FIRST CTC ATIS {letter} RECEIVED.",
+            "voice": "CONFIRM ON FIRST CONTACT INFORMATION {letter|word} RECEIVED"
           }
         }
       }
