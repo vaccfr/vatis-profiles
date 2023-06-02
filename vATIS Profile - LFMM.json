@@ -1190,6 +1190,15 @@
           "externalGenerator": {
             "enabled": false
           }
+        },
+        {
+          "id": "83602623-25db-4f0a-a059-ffc1434af15a",
+          "name": "LFML 13/31 NIGHT",
+          "airportConditions": "EXPECT ILS Z RWY 13L. ARR RWY 13L, DEP RWY 31R. SID 6N",
+          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
+          "externalGenerator": {
+            "enabled": false
+          }
         }
       ],
       "contractions": [
@@ -2075,7 +2084,7 @@
         {
           "id": "adb337bb-480d-434d-834d-11ad5b5a0eb9",
           "name": "LFKJ 20 PARATA",
-          "airportConditions": "EXPECT VPT B RWY 20. ARR RWY 20, DEP RWY 20. SID 1R",
+          "airportConditions": "CONFIG PARATA. EXPECT VPT A RWY 20. ARR RWY 20, DEP RWY 20. SID 6P",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -2084,7 +2093,7 @@
         {
           "id": "4410f6a7-9d33-4621-8864-e768a1ef2423",
           "name": "LFKJ 02/20 HORRO",
-          "airportConditions": "EXPECT ILS RWY 02. ARR RWY 02, DEP RWY 20. SID 1R",
+          "airportConditions": "CONFIG HORRO. EXPECT ILS RWY 02. ARR RWY 02, DEP RWY 20. SID 1R",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -2371,7 +2380,7 @@
         {
           "id": "575005ef-39a7-455b-bc69-9f3b4ae10b42",
           "name": "LFKB 34",
-          "airportConditions": "EXPECT ILS RWY 34. LANDING RWY 34, DEP RWY 34. SID 1R",
+          "airportConditions": "EXPECT ILS RWY 34. LANDING RWY 34, DEP RWY 34. SID 2R",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
