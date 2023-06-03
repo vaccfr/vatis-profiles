@@ -4,6 +4,12 @@
 
 This repository contains the vATIS Profiles used by French vACC Controllers.
 
+## Download
+
+[![Release](https://img.shields.io/github/v/release/vaccfr/vatis-profiles?style=for-the-badge&color=green)][1]
+
+[1]: https://github.com/vaccfr/vatis-profiles/releases/latest
+
 ## Supported Airports
 
 ### LFBB
