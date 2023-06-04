@@ -725,8 +725,8 @@
       "presets": [
         {
           "id": "985d0721-8049-4540-a5a7-2d8ca76009f8",
-          "name": "LFPB 09/07",
-          "airportConditions": "EXPECT 6E ILS 09. ARR RWY 09, DEP RWY 07. SID 5Q",
+          "name": "LFPB 07/09",
+          "airportConditions": "EXPECT 6E ILS 07. ARR RWY 07, DEP RWY 09. SID 5J",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -734,8 +734,8 @@
         },
         {
           "id": "cad0e3e9-105e-4f52-884a-ec99f021fe91",
-          "name": "LFPB 25/27",
-          "airportConditions": "EXPECT 6W ILS 25. ARR RWY 25, DEP RWY 27. SID 5C",
+          "name": "LFPB 27/25",
+          "airportConditions": "EXPECT 6W ILS 27. ARR RNY 27, DEP RWY 25. SID 5C",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
