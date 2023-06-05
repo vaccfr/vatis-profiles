@@ -24,7 +24,7 @@
         {
           "id": "d8769532-b9ff-415a-be36-813843d57777",
           "name": "LFMT 12",
-          "airportConditions": "EXPECT RNP RWY 12. ARR RWY 12L, DEP RWY 12L. SID 6L",
+          "airportConditions": "EXPECT RNP RWY 12L. ARR RWY 12L, DEP RWY 12L. SID 6L",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -33,7 +33,7 @@
         {
           "id": "1a764042-3e6f-4bc8-873b-e5d614115faf",
           "name": "LFMT 30",
-          "airportConditions": "EXPECT ILS Z RWY 30. ARR RWY 30R, DEP RWY 30R. SID 6R",
+          "airportConditions": "EXPECT ILS Z RWY 30R. ARR RWY 30R, DEP RWY 30R. SID 6R",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
