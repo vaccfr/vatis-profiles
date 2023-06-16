@@ -1494,7 +1494,7 @@
         {
           "id": "c8c2265e-835e-4de3-b8e1-a32a053b1ffa",
           "name": "LFBH 09",
-          "airportConditions": "EXPECT RNP RWY 09. ARR RWY 09, DEP RWY 09. SID 7E",
+          "airportConditions": "EXPECT RNP RWY 09. ARR RWY 09, DEP RWY 09. SID 5E",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -1503,7 +1503,7 @@
         {
           "id": "8819d90d-9773-4b9e-9266-93dce0472fbc",
           "name": "LFBH 27",
-          "airportConditions": "EXPECT ILS RWY 27. ARR RWY 27, DEP RWY 27. SID 7W",
+          "airportConditions": "EXPECT ILS RWY 27. ARR RWY 27, DEP RWY 27. SID 5W",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -1520,12 +1520,12 @@
           "spoken": "BON-JUR"
         },
         {
-          "string": "7E",
-          "spoken": "SEVEN ECHO"
+          "string": "5E",
+          "spoken": "FIVE ECHO"
         },
         {
-          "string": "7W",
-          "spoken": "SEVEN WHISKEY"
+          "string": "5W",
+          "spoken": "FIVE WHISKEY"
         }
       ],
       "airportConditionDefinitions": [],
