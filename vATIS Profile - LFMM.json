@@ -2950,7 +2950,7 @@
         {
           "id": "e9f97c96-3f79-466c-bb6b-5dcaec9a4675",
           "name": "LFKF 23",
-          "airportConditions": "EXPECT ILS RWY 23. ARR RWY 23, DEP RWY 23. SID 3M",
+          "airportConditions": "EXPECT ILS RWY 23. ARR RWY 23, DEP RWY 23. SID 4A AND 4M",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -2971,8 +2971,12 @@
           "spoken": "THREE GOLF"
         },
         {
-          "string": "3M",
-          "spoken": "THREE MIKE"
+          "string": "4A",
+          "spoken": "FOUR ALPHA"
+        },
+        {
+          "string": "4M",
+          "spoken": "FOUR MIKE"
         }
       ],
       "airportConditionDefinitions": [],
@@ -3515,7 +3519,7 @@
         {
           "id": "4d0a9b89-a4d9-49a6-9ab2-b066edff5eee",
           "name": "LFLC 08",
-          "airportConditions": "EXPECT ILS RWY 08. ARR RWY 26, DEP RWY 08. SID 2E",
+          "airportConditions": "EXPECT ILS RWY 08. ARR RWY 26, DEP RWY 08. SID 4E",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -3524,7 +3528,7 @@
         {
           "id": "50c49d0c-99a2-4114-a879-b6b401efba28",
           "name": "LFLC 26",
-          "airportConditions": "EXPECT ILS RWY 26. ARR RWY 26, DEP RWY 26. SID 2W",
+          "airportConditions": "EXPECT ILS RWY 26. ARR RWY 26, DEP RWY 26. SID 4W",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -3541,12 +3545,12 @@
           "spoken": "BON-JUR"
         },
         {
-          "string": "2E",
-          "spoken": "TWO ECHO"
+          "string": "4E",
+          "spoken": "FOUR ECHO"
         },
         {
-          "string": "2W",
-          "spoken": "TWO WHISKEY"
+          "string": "4W",
+          "spoken": "FOUR WHISKEY"
         }
       ],
       "airportConditionDefinitions": [],
