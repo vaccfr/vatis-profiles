@@ -399,7 +399,7 @@
         {
           "id": "0c6fa667-b19a-4def-a167-6d5a330ca8f8",
           "name": "LFPO 24/25 WL",
-          "airportConditions": "EXPECT 6W ILS 25. ARR RWY 25, DEP RWY 24. SID 9W",
+          "airportConditions": "EXPECT 6W ILS 25. ARR RWY 25, DEP RWY 24. SID 1W",
           "notams": "",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
@@ -409,7 +409,7 @@
         {
           "id": "59d33953-ceb1-4678-84f1-03a2a13a1bd9",
           "name": "LFPO 07/06 EL",
-          "airportConditions": "EXPECT 6E ILS 06. ARR RWY 06, DEP RWY 07. SID 9E",
+          "airportConditions": "EXPECT 6E ILS 06. ARR RWY 06, DEP RWY 07. SID 1E",
           "notams": "",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
@@ -419,7 +419,7 @@
         {
           "id": "bdb0ab47-6fa0-4803-b984-856bd66397e9",
           "name": "LFPO 24/25 WI",
-          "airportConditions": "EXPECT 6W ILS 25. ARR RWY 25, DEP RWY 24. SID 9Q",
+          "airportConditions": "EXPECT 6W ILS 25. ARR RWY 25, DEP RWY 24. SID 1Q",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -428,7 +428,7 @@
         {
           "id": "7be05da3-3954-4f08-825c-80964fd0d9ba",
           "name": "LFPO 07/06 EI",
-          "airportConditions": "EXPECT 6E 6Y ILS 06. ARR RWY 06, DEP RWY 07. SID 9G",
+          "airportConditions": "EXPECT 6E 6Y ILS 06. ARR RWY 06, DEP RWY 07. SID 1G",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -445,20 +445,20 @@
           "spoken": "BON-JUR"
         },
         {
-          "string": "9W",
-          "spoken": "NINER WHISKEY"
+          "string": "1W",
+          "spoken": "ONE WHISKEY"
         },
         {
-          "string": "9E",
-          "spoken": "NINER ECHO"
+          "string": "1E",
+          "spoken": "ONE ECHO"
         },
         {
-          "string": "9Q",
-          "spoken": "NINER QUEBEC"
+          "string": "1Q",
+          "spoken": "ONE QUEBEC"
         },
         {
-          "string": "9G",
-          "spoken": "NINER GOLF"
+          "string": "1G",
+          "spoken": "ONE GOLF"
         },
         {
           "string": "6E",
