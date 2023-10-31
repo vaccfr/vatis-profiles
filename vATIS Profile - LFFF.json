@@ -11,7 +11,7 @@
         "low": "A",
         "high": "Z"
       },
-      "frequency": 127125000,
+      "frequency": 127130000,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "Default"
@@ -385,7 +385,7 @@
         "low": "A",
         "high": "Z"
       },
-      "frequency": 131350000,
+      "frequency": 126505000,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "Default"
@@ -713,11 +713,12 @@
         "low": "A",
         "high": "Z"
       },
-      "frequency": 118370000,
+      "frequency": 120000000,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "Default"
       },
+      "idsEndpoint": "",
       "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "airportConditionsBeforeFreeText": false,
@@ -1008,11 +1009,12 @@
         "low": "A",
         "high": "Z"
       },
-      "frequency": 118000000,
+      "frequency": 118380000,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "Default"
       },
+      "idsEndpoint": "",
       "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "airportConditionsBeforeFreeText": false,
@@ -1295,11 +1297,12 @@
         "low": "A",
         "high": "Z"
       },
-      "frequency": 119325000,
+      "frequency": 119330000,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "Default"
       },
+      "idsEndpoint": "",
       "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "airportConditionsBeforeFreeText": false,

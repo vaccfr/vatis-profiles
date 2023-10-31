@@ -11,11 +11,12 @@
         "low": "A",
         "high": "Z"
       },
-      "frequency": 121150000,
+      "frequency": 121130000,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "Default"
       },
+      "idsEndpoint": "",
       "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "airportConditionsBeforeFreeText": false,
@@ -298,11 +299,12 @@
         "low": "A",
         "high": "Z"
       },
-      "frequency": 128475000,
+      "frequency": 128480000,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "Default"
       },
+      "idsEndpoint": "",
       "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "airportConditionsBeforeFreeText": false,
@@ -589,11 +591,12 @@
         "low": "A",
         "high": "Z"
       },
-      "frequency": 128225000,
+      "frequency": 125955000,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "Default"
       },
+      "idsEndpoint": "",
       "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "airportConditionsBeforeFreeText": false,
@@ -880,7 +883,7 @@
         "low": "A",
         "high": "Z"
       },
-      "frequency": 131150000,
+      "frequency": 131155000,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "Default"
@@ -1194,11 +1197,12 @@
         "low": "A",
         "high": "Z"
       },
-      "frequency": 127475000,
+      "frequency": 127480000,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "Default"
       },
+      "idsEndpoint": "",
       "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "airportConditionsBeforeFreeText": false,
@@ -2055,11 +2059,12 @@
         "low": "A",
         "high": "Z"
       },
-      "frequency": 128075000,
+      "frequency": 128080000,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "Default"
       },
+      "idsEndpoint": "",
       "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "airportConditionsBeforeFreeText": false,
@@ -2342,11 +2347,12 @@
         "low": "A",
         "high": "Z"
       },
-      "frequency": 120025000,
+      "frequency": 120030000,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "Default"
       },
+      "idsEndpoint": "",
       "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "airportConditionsBeforeFreeText": false,
