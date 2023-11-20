@@ -14,7 +14,7 @@
       "frequency": 121130000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "Default"
+        "voice": "UK Male"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -302,7 +302,7 @@
       "frequency": 128480000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "Default"
+        "voice": "UK Male"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -886,7 +886,7 @@
       "frequency": 131155000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "Default"
+        "voice": "UK Male"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
