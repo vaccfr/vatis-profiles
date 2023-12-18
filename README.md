@@ -26,6 +26,7 @@ This repository contains the vATIS Profiles used by French vACC Controllers.
 
 ### LFEE
 
+- LFGA: Colmar
 - LFJL: Metz
 - LFSB: Bale
 - LFST: Strasbourg
