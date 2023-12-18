@@ -1127,12 +1127,12 @@
             {
               "low": 1013,
               "high": 1040,
-              "altitude": 60
+              "altitude": 75
             },
             {
               "low": 940,
               "high": 1012,
-              "altitude": 70
+              "altitude": 85
             }
           ],
           "template": {
