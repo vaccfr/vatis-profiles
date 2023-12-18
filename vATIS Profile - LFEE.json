@@ -284,7 +284,7 @@
           ],
           "template": {
             "text": "TRL {trl}",
-            "voice": "TRANSITION LEVEL {trl}."
+            "voice": "TRANSITION LEVEL {trl}"
           }
         },
         "closingStatement": {
@@ -570,7 +570,7 @@
           ],
           "template": {
             "text": "TRL {trl}",
-            "voice": "TRANSITION LEVEL {trl}."
+            "voice": "TRANSITION LEVEL {trl}"
           }
         },
         "closingStatement": {
@@ -856,7 +856,7 @@
           ],
           "template": {
             "text": "TRL {trl}",
-            "voice": "TRANSITION LEVEL {trl}."
+            "voice": "TRANSITION LEVEL {trl}"
           }
         },
         "closingStatement": {
