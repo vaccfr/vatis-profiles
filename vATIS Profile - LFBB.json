@@ -14,7 +14,7 @@
       "frequency": 121130000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -300,7 +300,7 @@
       "frequency": 128480000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -590,7 +590,7 @@
       "frequency": 125955000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "Default"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -880,7 +880,7 @@
       "frequency": 131155000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -1192,7 +1192,7 @@
       "frequency": 127480000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "Default"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -1475,10 +1475,10 @@
         "low": "A",
         "high": "Z"
       },
-      "frequency": 126875000,
+      "frequency": 126880000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "Default"
+        "voice": "UK Female"
       },
       "useNotamPrefix": false,
       "useDecimalTerminology": true,
@@ -1760,10 +1760,10 @@
         "low": "A",
         "high": "Z"
       },
-      "frequency": 121775000,
+      "frequency": 121780000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "Default"
+        "voice": "UK Female"
       },
       "useNotamPrefix": false,
       "useDecimalTerminology": true,
@@ -1773,7 +1773,7 @@
         {
           "id": "0e88d79d-c273-4dce-b698-f2dba55338d9",
           "name": "LFBI 03",
-          "airportConditions": "EXPECT RNP RWY 03. ARR RWY 03, DEP RWY 03. SID 5T",
+          "airportConditions": "EXPECT RNP RWY 03. ARR RWY 03, DEP RWY 03. SID 6T",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -1782,7 +1782,7 @@
         {
           "id": "5f68c2ce-8cc5-4f61-a153-8ec6fe142ae2",
           "name": "LFBI 21",
-          "airportConditions": "EXPECT ILS RWY 21. ARR RWY 21, DEP RWY 21. SID 5V",
+          "airportConditions": "EXPECT ILS RWY 21. ARR RWY 21, DEP RWY 21. SID 6V",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -1799,12 +1799,12 @@
           "spoken": "BON-JUR"
         },
         {
-          "string": "5T",
-          "spoken": "FIVE TANGO"
+          "string": "6T",
+          "spoken": "SIX TANGO"
         },
         {
-          "string": "5V",
-          "spoken": "FIVE VICTOR"
+          "string": "6V",
+          "spoken": "SIX VICTOR"
         }
       ],
       "airportConditionDefinitions": [],
@@ -2048,7 +2048,7 @@
       "frequency": 128080000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "Default"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -2334,7 +2334,7 @@
       "frequency": 120030000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "Default"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
