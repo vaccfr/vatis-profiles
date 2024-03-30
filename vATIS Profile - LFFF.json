@@ -14,7 +14,7 @@
       "frequency": 127130000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -386,7 +386,7 @@
       "frequency": 126505000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -712,7 +712,7 @@
       "frequency": 120000000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -1006,7 +1006,7 @@
       "frequency": 118380000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -1292,7 +1292,7 @@
       "frequency": 119330000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
