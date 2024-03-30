@@ -14,7 +14,7 @@
       "frequency": 124130000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -304,7 +304,7 @@
       "frequency": 127880000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -315,7 +315,7 @@
         {
           "id": "dee65e3a-9398-4f3a-8c72-98f4856aa011",
           "name": "LFMP 15",
-          "airportConditions": "EXPECT RNP RWY 15. ARR RWY 15, DEP RWY 15. SID 4S",
+          "airportConditions": "EXPECT RNP RWY 15. ARR RWY 15, DEP RWY 15. SID 5S AND 5W",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -324,7 +324,7 @@
         {
           "id": "1b6c8a55-345f-4f57-9d5d-45c4f59a92a6",
           "name": "LFMP 33",
-          "airportConditions": "EXPECT ILS RWY 33. ARR RWY 33, DEP RWY 33. SID 4N",
+          "airportConditions": "EXPECT ILS RWY 33. ARR RWY 33, DEP RWY 33. SID 5N AND 5X",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -341,12 +341,20 @@
           "spoken": "BON-JUR"
         },
         {
-          "string": "4S",
-          "spoken": "FOUR SIERRA"
+          "string": "5S",
+          "spoken": "FIVE SIERRA"
         },
         {
-          "string": "4N",
-          "spoken": "FOUR NOVEMBER"
+          "string": "5N",
+          "spoken": "FIVE NOVEMBER"
+        },
+        {
+          "string": "5W",
+          "spoken": "FIVE WHISKY"
+        },
+        {
+          "string": "5X",
+          "spoken": "FIVE X-RAY"
         }
       ],
       "airportConditionDefinitions": [],
@@ -590,7 +598,7 @@
       "frequency": 126180000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -876,7 +884,7 @@
       "frequency": 127100000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "useNotamPrefix": false,
       "useDecimalTerminology": true,
@@ -1161,7 +1169,7 @@
       "frequency": 125355000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -1460,7 +1468,7 @@
       "frequency": 129605000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -1778,7 +1786,7 @@
       "frequency": 130480000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -1789,7 +1797,7 @@
         {
           "id": "b2696a77-27bd-4171-99b5-c3b4eebd628a",
           "name": "LFMD 17",
-          "airportConditions": "EXPECT LOC A RWY 35 THEN VPT RWY 17. ARR RWY 17, DEP RWY 17. SID 9K",
+          "airportConditions": "EXPECT LOC A RWY 17 THEN VPT A RWY 17. ARR RWY 17, DEP RWY 17. SID 9K",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -1798,7 +1806,7 @@
         {
           "id": "f6cec980-87d4-4195-8e4f-b5262d8768e0",
           "name": "LFMD 35",
-          "airportConditions": "EXPECT LOC A RWY 35. ARR RWY 35, DEP RWY 17. SID 9K",
+          "airportConditions": "EXPECT RNP Y RWY 35. ARR RWY 35, DEP RWY 17. SID 9K",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -1821,6 +1829,10 @@
         {
           "string": "A",
           "spoken": "ALPHA"
+        },
+        {
+          "string": "Y",
+          "spoken": "YANKEE"
         }
       ],
       "airportConditionDefinitions": [],
@@ -2064,7 +2076,7 @@
       "frequency": 126930000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -2350,7 +2362,7 @@
       "frequency": 125930000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -2391,8 +2403,8 @@
           "spoken": "TWO VICTOR"
         },
         {
-          "string": "1R",
-          "spoken": "ONE ROMEO"
+          "string": "2R",
+          "spoken": "TWO ROMEO"
         }
       ],
       "airportConditionDefinitions": [],
@@ -2636,7 +2648,7 @@
       "frequency": 131180000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -2918,7 +2930,7 @@
       "frequency": 118730000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -3208,7 +3220,7 @@
       "frequency": 127530000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -3219,7 +3231,7 @@
         {
           "id": "f990c80d-005a-4e21-bddf-390cadc50a1e",
           "name": "LFMU 09",
-          "airportConditions": "EXPECT RNP RWY 09. ARR RWY 09, DEP RWY 09. SID 6E",
+          "airportConditions": "EXPECT RNP RWY 09. ARR RWY 09, DEP RWY 09. SID 7L",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -3228,7 +3240,7 @@
         {
           "id": "98d80be3-68cf-4a55-ad8c-dacb486be88d",
           "name": "LFMU 27",
-          "airportConditions": "EXPECT RNP RWY 27. ARR RWY 27, DEP RWY 27. SID 6W",
+          "airportConditions": "EXPECT RNP RWY 27. ARR RWY 27, DEP RWY 27. SID 7R",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -3245,12 +3257,12 @@
           "spoken": "BON-JUR"
         },
         {
-          "string": "6E",
-          "spoken": "SIX ECHO"
+          "string": "7L",
+          "spoken": "SEVEN LIMA"
         },
         {
-          "string": "6W",
-          "spoken": "SIX WHISKEY"
+          "string": "7R",
+          "spoken": "SEVEN ROMEO"
         }
       ],
       "airportConditionDefinitions": [],
@@ -3494,7 +3506,7 @@
       "frequency": 136405000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -3505,7 +3517,16 @@
         {
           "id": "4d0a9b89-a4d9-49a6-9ab2-b066edff5eee",
           "name": "LFLC 08",
-          "airportConditions": "EXPECT ILS RWY 08. ARR RWY 26, DEP RWY 08. SID 4E",
+          "airportConditions": "EXPECT ILS RWY 26. ARR RWY 26, DEP RWY 08. SID 4E",
+          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "121b35c8-3c35-432e-875f-7e31d77b2fc4",
+          "name": "LFLC 26/08",
+          "airportConditions": "EXPECT ILS RWY 26 CIRCLING RWY 08, DEP RWY 08. SID 4E",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -3780,7 +3801,7 @@
       "frequency": 133855000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -4066,7 +4087,7 @@
       "frequency": 129355000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
