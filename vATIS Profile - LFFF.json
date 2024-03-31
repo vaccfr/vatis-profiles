@@ -14,7 +14,7 @@
       "frequency": 127130000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -351,7 +351,7 @@
           "values": [
             {
               "low": 1013,
-              "high": 1040,
+              "high": 1050,
               "altitude": 60
             },
             {
@@ -386,7 +386,7 @@
       "frequency": 126505000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -677,7 +677,7 @@
           "values": [
             {
               "low": 1013,
-              "high": 1040,
+              "high": 1050,
               "altitude": 60
             },
             {
@@ -712,7 +712,7 @@
       "frequency": 120000000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -971,7 +971,7 @@
           "values": [
             {
               "low": 1013,
-              "high": 1040,
+              "high": 1050,
               "altitude": 60
             },
             {
@@ -1006,7 +1006,7 @@
       "frequency": 118380000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -1257,7 +1257,7 @@
           "values": [
             {
               "low": 1013,
-              "high": 1040,
+              "high": 1050,
               "altitude": 60
             },
             {
@@ -1292,7 +1292,7 @@
       "frequency": 119330000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -1547,7 +1547,7 @@
           "values": [
             {
               "low": 1013,
-              "high": 1040,
+              "high": 1050,
               "altitude": 60
             },
             {
