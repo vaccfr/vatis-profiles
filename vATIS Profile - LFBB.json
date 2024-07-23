@@ -891,7 +891,7 @@
         {
           "id": "65a6fa81-e78f-4d83-ba19-4b84b87b5643",
           "name": "LFBD 23",
-          "airportConditions": "EXPECT ILS RWY 23. ARR RWY 23, DEP RWY 23. SID 5P",
+          "airportConditions": "EXPECT ILS RWY 23. ARR RWY 23, DEP RWY 23. SID 6P",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -900,7 +900,7 @@
         {
           "id": "01af66f9-d860-421d-bbbd-bd1730a0e33c",
           "name": "LFBD 05",
-          "airportConditions": "EXPECT RNP RWY 05. ARR RWY 05, DEP RWY 05. SID 5Q",
+          "airportConditions": "EXPECT RNP RWY 05. ARR RWY 05, DEP RWY 05. SID 6Q",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -909,7 +909,7 @@
         {
           "id": "00260a51-2930-4dac-b15f-52c2861516cf",
           "name": "LFBD 29",
-          "airportConditions": "EXPECT ILS RWY 29. ARR RWY 29, DEP RWY 29. SID 5R",
+          "airportConditions": "EXPECT ILS RWY 29. ARR RWY 29, DEP RWY 29. SID 6R",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -918,7 +918,7 @@
         {
           "id": "23d444e1-b06a-4b10-b61a-567522158990",
           "name": "LFBD 11",
-          "airportConditions": "EXPECT RNP RWY 11. ARR RWY 11, DEP RWY 11. SID 5E",
+          "airportConditions": "EXPECT RNP RWY 11. ARR RWY 11, DEP RWY 11. SID 6E",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -935,20 +935,20 @@
           "spoken": "BON-JUR"
         },
         {
-          "string": "5P",
-          "spoken": "FIVE PAPA"
+          "string": "6P",
+          "spoken": "SIX PAPA"
         },
         {
-          "string": "5Q",
-          "spoken": "FIVE QUEBEC"
+          "string": "6Q",
+          "spoken": "SIX QUEBEC"
         },
         {
-          "string": "5R",
-          "spoken": "FIVE ROMEO"
+          "string": "6R",
+          "spoken": "SIX ROMEO"
         },
         {
-          "string": "5E",
-          "spoken": "FIVE ECHO"
+          "string": "6E",
+          "spoken": "SIX ECHO"
         }
       ],
       "airportConditionDefinitions": [],
@@ -1203,7 +1203,7 @@
         {
           "id": "4073b493-b7e2-4632-8b61-9216a3a07088",
           "name": "LFBE 09",
-          "airportConditions": "EXPECT RNP RWY 09. ARR RWY 09. TAKEOFF 09. SID 7E",
+          "airportConditions": "EXPECT RNP RWY 09. ARR RWY 09. TAKEOFF 09. SID 8E",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -1212,7 +1212,7 @@
         {
           "id": "97e54279-5645-4efa-bbb0-788e7957bb49",
           "name": "LFBE 27",
-          "airportConditions": "EXPECT ILS RWY 27. ARR RWY 27. TAKEOFF 27. SID 7W",
+          "airportConditions": "EXPECT ILS RWY 27. ARR RWY 27. TAKEOFF 27. SID 8W",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -1229,12 +1229,12 @@
           "spoken": "BON-JUR"
         },
         {
-          "string": "5E",
-          "spoken": "FIVE ECHO"
+          "string": "8E",
+          "spoken": "EIGHT ECHO"
         },
         {
-          "string": "5W",
-          "spoken": "FIVE WHISKEY"
+          "string": "8W",
+          "spoken": "EIGHT WHISKEY"
         }
       ],
       "airportConditionDefinitions": [],
