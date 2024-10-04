@@ -150,7 +150,13 @@
         }
       ],
       "airportConditionDefinitions": [],
-      "notamDefinitions": [],
+      "notamDefinitions": [
+        {
+          "ordinal": 1,
+          "text": "CDM IN USE.",
+          "enabled": false
+        }
+      ],
       "atisFormat": {
         "observationTime": {
           "standardUpdateTime": [
@@ -476,7 +482,13 @@
         }
       ],
       "airportConditionDefinitions": [],
-      "notamDefinitions": [],
+      "notamDefinitions": [
+        {
+          "ordinal": 1,
+          "text": "CDM IN USE.",
+          "enabled": false
+        }
+      ],
       "atisFormat": {
         "observationTime": {
           "standardUpdateTime": [

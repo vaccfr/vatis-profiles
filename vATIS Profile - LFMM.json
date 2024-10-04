@@ -644,7 +644,13 @@
         }
       ],
       "airportConditionDefinitions": [],
-      "notamDefinitions": [],
+      "notamDefinitions": [
+        {
+          "ordinal": 1,
+          "text": "CDM IN USE.",
+          "enabled": false
+        }
+      ],
       "atisFormat": {
         "observationTime": {
           "standardUpdateTime": [
@@ -1502,7 +1508,7 @@
         {
           "id": "705b5fed-af17-4d46-ad43-419676337b91",
           "name": "LFMN 22",
-          "airportConditions": "EXPECT RNP D RWY 22R. RNP Z ON RQST /ARR RWY 22R /DEP RWY 22L /SID 7X, 7Y",
+          "airportConditions": "EXPECT RNP D THEN VPT D RWY 22R. RNP Z ON RQST /ARR RWY 22R /DEP RWY 22L /SID 7X, 7Y",
           "template": "BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -1549,6 +1555,11 @@
         {
           "ordinal": 2,
           "text": "RWY 04R, 22L CLOSED BY NOTAM.",
+          "enabled": false
+        },
+        {
+          "ordinal": 3,
+          "text": "CDM IN USE.",
           "enabled": false
         }
       ],
