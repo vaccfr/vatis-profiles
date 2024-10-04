@@ -23,6 +23,7 @@ This repository contains the vATIS Profiles used by French vACC Controllers.
 - LFBO: Toulouse
 - LFBP: Pau
 - LFBT: Tarbes
+- LFBZ: Biarritz
 
 ### LFEE
 

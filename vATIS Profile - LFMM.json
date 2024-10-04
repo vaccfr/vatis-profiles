@@ -609,7 +609,7 @@
         {
           "id": "d20c9d6b-b62d-429e-be55-058ab2a1a96b",
           "name": "LFLL 35",
-          "airportConditions": "EXPECT ILS RWY 35R /ARR RWY 35R /DEP RWY 35L /SID 4N.",
+          "airportConditions": "EXPECT ILS RWY 35R /ARR RWY 35R /DEP RWY 35L /SID 6N.",
           "template": "BONJOUR. [FACILITY] ATIS [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -618,7 +618,7 @@
         {
           "id": "dcbc539e-d45b-4e17-b96b-155ec8fedcf0",
           "name": "LFLL 17",
-          "airportConditions": "EXPECT ILS RWY 17L /ARR RWY 17L /DEP RWY 17R /SID 4S.",
+          "airportConditions": "EXPECT ILS RWY 17L /ARR RWY 17L /DEP RWY 17R /SID 6S.",
           "template": "BONJOUR. [FACILITY] ATIS [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -635,16 +635,22 @@
           "spoken": "DEPARTURES"
         },
         {
-          "string": "4N",
-          "spoken": "FOUR NOVEMBER"
+          "string": "6N",
+          "spoken": "SIX NOVEMBER"
         },
         {
-          "string": "4S",
-          "spoken": "FOUR SIERRA"
+          "string": "6S",
+          "spoken": "SIX SIERRA"
         }
       ],
       "airportConditionDefinitions": [],
-      "notamDefinitions": [],
+      "notamDefinitions": [
+        {
+          "ordinal": 1,
+          "text": "CDM IN USE.",
+          "enabled": false
+        }
+      ],
       "atisFormat": {
         "observationTime": {
           "standardUpdateTime": [
@@ -886,6 +892,7 @@
         "useTextToSpeech": true,
         "voice": "UK Female"
       },
+      "idsEndpoint": "",
       "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "airportConditionsBeforeFreeText": false,
@@ -894,7 +901,7 @@
         {
           "id": "4bdd46dd-561c-4891-90d2-e0c087c6c65d",
           "name": "LFLB 18",
-          "airportConditions": "EXPECT ILS RWY 18. ARR RWY 18, DEP RWY 18. SID 8L",
+          "airportConditions": "EXPECT ILS RWY 18. ARR RWY 18, DEP RWY 18. SID 2L",
           "template": "BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -903,7 +910,7 @@
         {
           "id": "ae66fa0c-0f51-4f69-8e05-fbef68ae5a84",
           "name": "LFLB 36",
-          "airportConditions": "EXPECT ILS RWY 18 THEN VISUAL RWY 36. ARR RWY 36, DEP RWY 36. SID 8C",
+          "airportConditions": "EXPECT ILS RWY 18 THEN VISUAL RWY 36. ARR RWY 36, DEP RWY 36. SID 2C",
           "template": "BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -920,12 +927,16 @@
           "spoken": "DEPARTURES"
         },
         {
-          "string": "8L",
-          "spoken": "EIGHT LIMA"
+          "string": "2L",
+          "spoken": "TWO LIMA"
         },
         {
-          "string": "8C",
-          "spoken": "EIGHT CHARLIE"
+          "string": "2C",
+          "spoken": "TWO CHARLIE"
+        },
+        {
+          "string": "2R",
+          "spoken": "TWO ROMEO"
         }
       ],
       "airportConditionDefinitions": [],
@@ -1497,7 +1508,7 @@
         {
           "id": "705b5fed-af17-4d46-ad43-419676337b91",
           "name": "LFMN 22",
-          "airportConditions": "EXPECT RNP D RWY 22R. RNP Z ON RQST /ARR RWY 22R /DEP RWY 22L /SID 7X, 7Y",
+          "airportConditions": "EXPECT RNP D THEN VPT D RWY 22R. RNP Z ON RQST /ARR RWY 22R /DEP RWY 22L /SID 7X, 7Y",
           "template": "BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -1544,6 +1555,11 @@
         {
           "ordinal": 2,
           "text": "RWY 04R, 22L CLOSED BY NOTAM.",
+          "enabled": false
+        },
+        {
+          "ordinal": 3,
+          "text": "CDM IN USE.",
           "enabled": false
         }
       ],
