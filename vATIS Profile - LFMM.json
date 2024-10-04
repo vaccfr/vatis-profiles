@@ -886,6 +886,7 @@
         "useTextToSpeech": true,
         "voice": "UK Female"
       },
+      "idsEndpoint": "",
       "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "airportConditionsBeforeFreeText": false,
@@ -894,7 +895,7 @@
         {
           "id": "4bdd46dd-561c-4891-90d2-e0c087c6c65d",
           "name": "LFLB 18",
-          "airportConditions": "EXPECT ILS RWY 18. ARR RWY 18, DEP RWY 18. SID 8L",
+          "airportConditions": "EXPECT ILS RWY 18. ARR RWY 18, DEP RWY 18. SID 2L",
           "template": "BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -903,7 +904,7 @@
         {
           "id": "ae66fa0c-0f51-4f69-8e05-fbef68ae5a84",
           "name": "LFLB 36",
-          "airportConditions": "EXPECT ILS RWY 18 THEN VISUAL RWY 36. ARR RWY 36, DEP RWY 36. SID 8C",
+          "airportConditions": "EXPECT ILS RWY 18 THEN VISUAL RWY 36. ARR RWY 36, DEP RWY 36. SID 2C",
           "template": "BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -920,12 +921,16 @@
           "spoken": "DEPARTURES"
         },
         {
-          "string": "8L",
-          "spoken": "EIGHT LIMA"
+          "string": "2L",
+          "spoken": "TWO LIMA"
         },
         {
-          "string": "8C",
-          "spoken": "EIGHT CHARLIE"
+          "string": "2C",
+          "spoken": "TWO CHARLIE"
+        },
+        {
+          "string": "2R",
+          "spoken": "TWO ROMEO"
         }
       ],
       "airportConditionDefinitions": [],
