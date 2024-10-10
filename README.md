@@ -14,16 +14,17 @@ This repository contains the vATIS Profiles used by French vACC Controllers.
 
 ### LFBB
 
+- LFBA: Agen
 - LFBD: Bordeaux
 - LFBE: Bergerac
 - LFBH: La Rochelle
 - LFBI: Poitiers
-- LFMK: Carcasonne
 - LFBL: Limoges
 - LFBO: Toulouse
 - LFBP: Pau
 - LFBT: Tarbes
 - LFBZ: Biarritz
+- LFMK: Carcasonne
 
 ### LFEE
 
@@ -41,7 +42,7 @@ This repository contains the vATIS Profiles used by French vACC Controllers.
 - LFQQ: Lille
 
 ### LFMM
-
+- LFCR: Rodez
 - LFKB: Bastia
 - LFKC: Calvi
 - LFKF: Figari
