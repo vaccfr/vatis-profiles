@@ -118,19 +118,19 @@
         },
         {
           "string": "ILS 09L",
-          "spoken": "EYE EL ESS ZERO NINER LEFT"
+          "spoken": "ILS ZERO NINER LEFT"
         },
         {
           "string": "ILS 08R",
-          "spoken": "EYE EL ESS ZERO EIGHT RIGHT"
+          "spoken": "ILS ZERO EIGHT RIGHT"
         },
         {
           "string": "ILS 27R",
-          "spoken": "EYE EL ESS TWO SEVEN RIGHT"
+          "spoken": "ILS TWO SEVEN RIGHT"
         },
         {
           "string": "ILS 26L",
-          "spoken": "EYE EL ESS TWO SIX LEFT"
+          "spoken": "ILS TWO SIX LEFT"
         },
         {
           "string": "RWYS 09L AND 08R",
