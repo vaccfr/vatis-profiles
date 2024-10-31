@@ -25,7 +25,7 @@
         {
           "id": "d8769532-b9ff-415a-be36-813843d57777",
           "name": "LFMT 12",
-          "airportConditions": "EXPECT RNP RWY 12L. ARR RWY 12L, DEP RWY 12L. SID 6L",
+          "airportConditions": "EXPECT RNP RWY 12L. ARR RWY 12L, DEP RWY 12L. SID 7L",
           "template": "BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -34,7 +34,7 @@
         {
           "id": "1a764042-3e6f-4bc8-873b-e5d614115faf",
           "name": "LFMT 30",
-          "airportConditions": "EXPECT ILS Z RWY 30R. ARR RWY 30R, DEP RWY 30R. SID 6R",
+          "airportConditions": "EXPECT ILS Z RWY 30R. ARR RWY 30R, DEP RWY 30R. SID 7R",
           "template": "BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -51,12 +51,12 @@
           "spoken": "DEPARTURES"
         },
         {
-          "string": "6L",
-          "spoken": "SIX LIMA"
+          "string": "7L",
+          "spoken": "SEVEN LIMA"
         },
         {
-          "string": "6R",
-          "spoken": "SIX ROMEO"
+          "string": "7R",
+          "spoken": "SEVEN ROMEO"
         },
         {
           "string": "Z",
@@ -3828,7 +3828,7 @@
         {
           "id": "01b6c9d3-217a-42fb-901a-daa8b22955eb",
           "name": "LFLS 09",
-          "airportConditions": "EXPECT ILS RWY 09. ARR RWY 09, DEP RWY 09. SID 6E",
+          "airportConditions": "EXPECT ILS RWY 09. ARR RWY 09, DEP RWY 09. SID 8E",
           "template": "BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -3837,7 +3837,7 @@
         {
           "id": "33abe9bd-ece5-4a63-819f-02f3d823e7a4",
           "name": "LFLS 27",
-          "airportConditions": "EXPECT RNP RWY 27. ARR RWY 27, DEP RWY 27. SID 6W",
+          "airportConditions": "EXPECT RNP RWY 27. ARR RWY 27, DEP RWY 27. SID 8W",
           "template": "BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -3854,12 +3854,12 @@
           "spoken": "DEPARTURES"
         },
         {
-          "string": "6E",
-          "spoken": "SIX ECHO"
+          "string": "8E",
+          "spoken": "EIGHT ECHO"
         },
         {
           "string": "6W",
-          "spoken": "SIX WHISKEY"
+          "spoken": "EIGHT WHISKEY"
         }
       ],
       "airportConditionDefinitions": [],
@@ -4114,7 +4114,7 @@
         {
           "id": "02e47d8a-61a0-4a88-893e-95c0bace04bd",
           "name": "LFTW 18",
-          "airportConditions": "EXPECT RNP RWY 18. ARR RWY 18, DEP RWY 18. SID 3S",
+          "airportConditions": "EXPECT RNP RWY 18. ARR RWY 18, DEP RWY 18. SID 4S",
           "template": "BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -4123,7 +4123,7 @@
         {
           "id": "06c471dd-75f1-4502-9270-c2a0766109f3",
           "name": "LFTW 36",
-          "airportConditions": "EXPECT RNP RWY 36. ARR RWY 36, DEP RWY 36. SID 3N",
+          "airportConditions": "EXPECT RNP RWY 36. ARR RWY 36, DEP RWY 36. SID 4N",
           "template": "BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -4140,12 +4140,12 @@
           "spoken": "DEPARTURES"
         },
         {
-          "string": "3S",
-          "spoken": "THREE SIERRA"
+          "string": "4S",
+          "spoken": "FOUR SIERRA"
         },
         {
-          "string": "3N",
-          "spoken": "THREE NOVEMBER"
+          "string": "4N",
+          "spoken": "FOUR NOVEMBER"
         }
       ],
       "airportConditionDefinitions": [],
