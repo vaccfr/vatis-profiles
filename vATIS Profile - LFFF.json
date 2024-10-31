@@ -147,6 +147,14 @@
         {
           "string": "RWYS 27L AND 26R",
           "spoken": "RWYS TWO SEVEN LEFT AND TWO SIX RIGHT"
+        },
+        {
+          "string": "TOBT",
+          "spoken": "TEE-O-BEE-TEE"
+        },
+        {
+          "string": "CDM.VATSIM.FR",
+          "spoken": "CDM DOT VATSIM DOT FR"
         }
       ],
       "airportConditionDefinitions": [],
@@ -154,6 +162,11 @@
         {
           "ordinal": 1,
           "text": "CDM IN USE.",
+          "enabled": false
+        },
+        {
+          "ordinal": 2,
+          "text": "SEND YOUR TOBT AT CDM.VATSIM.FR.",
           "enabled": false
         }
       ],
@@ -479,6 +492,14 @@
         {
           "string": "7Y",
           "spoken": "SEVEN YANKEE"
+        },
+        {
+          "string": "TOBT",
+          "spoken": "TEE-O-BEE-TEE"
+        },
+        {
+          "string": "CDM.VATSIM.FR",
+          "spoken": "CDM DOT VATSIM DOT FR"
         }
       ],
       "airportConditionDefinitions": [],
@@ -486,6 +507,11 @@
         {
           "ordinal": 1,
           "text": "CDM IN USE.",
+          "enabled": false
+        },
+        {
+          "ordinal": 2,
+          "text": "SEND YOUR TOBT AT CDM.VATSIM.FR.",
           "enabled": false
         }
       ],
