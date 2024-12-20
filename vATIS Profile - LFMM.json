@@ -928,6 +928,15 @@
           "externalGenerator": {
             "enabled": false
           }
+        },
+        {
+          "id": "cfb5a2a5-0c1d-49c3-996c-4840ea185113",
+          "name": "LFLB 18/36",
+          "airportConditions": "EXPECT ILS RWY 18. ARR RWY 18, DEP RWY 36. SID 2C",
+          "template": "BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
+          "externalGenerator": {
+            "enabled": false
+          }
         }
       ],
       "contractions": [
