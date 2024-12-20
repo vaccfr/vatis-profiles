@@ -25,7 +25,7 @@
         {
           "id": "08674f88-f17f-450b-9d81-a884e711bc7b",
           "name": "LFBO 32",
-          "airportConditions": "EXPECT ILS RWY 32L. ARR RWY 32L, DEP RWY 32R. SID 6B",
+          "airportConditions": "EXPECT ILS RWY 32L. ARR RWY 32L, DEP RWY 32R. SID 7B",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -34,7 +34,7 @@
         {
           "id": "3562cbdd-d40e-4b82-b942-c757ba2f3855",
           "name": "LFBO 14",
-          "airportConditions": "EXPECT ILS RWY 14R. ARR RWY 14R, DEP RWY 14L. SID 6A",
+          "airportConditions": "EXPECT ILS RWY 14R. ARR RWY 14R, DEP RWY 14L. SID 7A",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
