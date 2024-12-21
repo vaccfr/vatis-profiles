@@ -25,8 +25,8 @@
         {
           "id": "a2928c8b-1468-4b3c-814a-0f12f25f6d1a",
           "name": "LFRS 03",
-          "airportConditions": "EXPECT ILS RWY 03. ARR RWY 03, DEP RWY 03. SID 4N",
-          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
+          "airportConditions": "EXPECT ILS RWY 03. ARR RWY 03, DEP RWY 03. @SID @4N",
+          "template": "@BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -34,8 +34,8 @@
         {
           "id": "5dc442fa-1c3a-453a-90c8-92d8ff2d71dd",
           "name": "LFRS 21",
-          "airportConditions": "EXPECT RNP RWY 21. ARR RWY 21, DEP RWY 21. SID 4S",
-          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
+          "airportConditions": "EXPECT RNP RWY 21. ARR RWY 21, DEP RWY 21. @SID @4S",
+          "template": "@BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -311,8 +311,8 @@
         {
           "id": "e7a9e558-e498-44b4-a9d8-4568c642bc08",
           "name": "LFRB 25",
-          "airportConditions": "EXPECT ILS RWY 25L. ARR RWY 25L, DEP RWY 25L. SID 6W",
-          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING]. CONFIRM ON INITIAL CONTACT THAT YOU HAVE RECEIVED INFORMATION [ATIS_CODE]",
+          "airportConditions": "EXPECT ILS RWY 25L. ARR RWY 25L, DEP RWY 25L. @SID @6W",
+          "template": "@BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING]. CONFIRM ON INITIAL CONTACT THAT YOU HAVE RECEIVED INFORMATION [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false
           }
@@ -320,8 +320,8 @@
         {
           "id": "bb037a81-e627-410e-9dfc-0ca96b680210",
           "name": "LFRB 07",
-          "airportConditions": "EXPECT RNP RWY 07R. ARR RWY 07R, DEP RWY 07R. SID 6F",
-          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING]. CONFIRM ON INITIAL CONTACT THAT YOU HAVE RECEIVED INFORMATION [ATIS_CODE]",
+          "airportConditions": "EXPECT RNP RWY 07R. ARR RWY 07R, DEP RWY 07R. @SID @6F",
+          "template": "@BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING]. CONFIRM ON INITIAL CONTACT THAT YOU HAVE RECEIVED INFORMATION [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false
           }
@@ -597,8 +597,8 @@
         {
           "id": "fa7aa900-2279-4c53-97f7-3731ea16b118",
           "name": "LFRN 10",
-          "airportConditions": "EXPECT ILS RWY 10. ARR RWY 10, DEP RWY 10. SID 5T",
-          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
+          "airportConditions": "EXPECT ILS RWY 10. ARR RWY 10, DEP RWY 10. @SID @5T",
+          "template": "@BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -606,8 +606,8 @@
         {
           "id": "c6bc8603-eb1f-4a76-b4d4-e05b3ad65268",
           "name": "LFRN 28",
-          "airportConditions": "EXPECT ILS RWY 28. ARR RWY 28, DEP RWY 28. SID 5V AND 5W",
-          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
+          "airportConditions": "EXPECT ILS RWY 28. ARR RWY 28, DEP RWY 28. @SID @5V AND @5W",
+          "template": "@BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
           }
