@@ -3555,7 +3555,7 @@
         {
           "id": "4d0a9b89-a4d9-49a6-9ab2-b066edff5eee",
           "name": "LFLC 08",
-          "airportConditions": "EXPECT ILS RWY 26. ARR RWY 26, DEP RWY 08. SID 4E",
+          "airportConditions": "EXPECT ILS RWY 26 CIRCLING RWY 08. ARR RWY 08. DEP RWY 08. SID 4E",
           "template": "BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -3564,7 +3564,7 @@
         {
           "id": "121b35c8-3c35-432e-875f-7e31d77b2fc4",
           "name": "LFLC 26/08",
-          "airportConditions": "EXPECT ILS RWY 26 CIRCLING RWY 08, DEP RWY 08. SID 4E",
+          "airportConditions": "EXPECT ILS RWY 26. ARR RWY 26, DEP RWY 08. SID 4E",
           "template": "BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
