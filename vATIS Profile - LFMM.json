@@ -1136,7 +1136,7 @@
           "voice": "TEE-O-BEE-TEE"
         },
         {
-          "variableName": "CDM.VATSIM.FR",
+          "variableName": "CDMURL",
           "text": "CDM.VATSIM.FR",
           "voice": "CDM DOT VATSIM DOT FR"
         }
@@ -1149,7 +1149,7 @@
           "enabled": false
         },
         {
-          "text": "SEND YOUR @TOBT AT @CDM.VATSIM.FR.",
+          "text": "SEND YOUR @TOBT AT @CDMURL.",
           "ordinal": 2,
           "enabled": false
         }
@@ -2335,7 +2335,7 @@
           "voice": "TEE-O-BEE-TEE"
         },
         {
-          "variableName": "CDM.VATSIM.FR",
+          "variableName": "CDMURL",
           "text": "CDM.VATSIM.FR",
           "voice": "CDM DOT VATSIM DOT FR"
         }
@@ -2358,7 +2358,7 @@
           "enabled": false
         },
         {
-          "text": "SEND YOUR @TOBT AT @CDM.VATSIM.FR.",
+          "text": "SEND YOUR @TOBT AT @CDMURL.",
           "ordinal": 4,
           "enabled": false
         }
