@@ -2694,8 +2694,17 @@
       "presets": [
         {
           "id": "b2696a77-27bd-4171-99b5-c3b4eebd628a",
-          "name": "LFMD 17",
+          "name": "LFMD 17 LOC A",
           "airportConditions": "EXPECT LOC @A RWY 17 THEN VPT @A RWY 17. ARR RWY 17, DEP RWY 17. @SID @9K.",
+          "template": "@BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "fd98c929-96bd-467f-b362-2a4491d4a455",
+          "name": "LFMD 17 RNP A",
+          "airportConditions": "EXPECT RNP @A RWY 17 THEN VPT @A RWY 17. ARR RWY 17, DEP RWY 17. @SID @9K.",
           "template": "@BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
