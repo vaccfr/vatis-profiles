@@ -4,6 +4,8 @@
 
 This repository contains the vATIS Profiles used by French vACC Controllers.
 
+The profiles are now only compatible with vATIS 4.1.0 and above (X-Platform) available here: https://vatis.app.
+
 ## Download
 
 [![Release](https://img.shields.io/github/v/release/vaccfr/vatis-profiles?style=for-the-badge&color=green)][1]
