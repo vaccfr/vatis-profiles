@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "LFMM",
-  "id": "2063cfd2-86e6-4968-afdb-855e380847ae",
+  "id": "74bf29c6-12b2-41c4-b318-77739a38300d",
   "stations": [
     {
       "id": "4e8ab8ca-65ca-4f68-8c6f-4726c3789062",
@@ -85,10 +85,6 @@
           }
         },
         "presentWeather": {
-          "lightIntensity": "light",
-          "moderateIntensity": "",
-          "heavyIntensity": "heavy",
-          "vicinity": "in vicinity",
           "presentWeatherTypes": {
             "DZ": {
               "text": "DZ",
@@ -216,6 +212,12 @@
             "voice": "{weather}"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": true,
           "convertToMetric": false,
@@ -223,6 +225,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {
@@ -312,6 +318,12 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
@@ -324,7 +336,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 124130000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -462,10 +473,6 @@
           }
         },
         "presentWeather": {
-          "lightIntensity": "light",
-          "moderateIntensity": "",
-          "heavyIntensity": "heavy",
-          "vicinity": "in vicinity",
           "presentWeatherTypes": {
             "DZ": {
               "text": "DZ",
@@ -593,6 +600,12 @@
             "voice": "{weather}"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": true,
           "convertToMetric": false,
@@ -600,6 +613,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {
@@ -689,6 +706,12 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
@@ -701,7 +724,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 127880000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -844,10 +866,6 @@
           }
         },
         "presentWeather": {
-          "lightIntensity": "light",
-          "moderateIntensity": "",
-          "heavyIntensity": "heavy",
-          "vicinity": "in vicinity",
           "presentWeatherTypes": {
             "DZ": {
               "text": "DZ",
@@ -975,6 +993,12 @@
             "voice": "{weather}"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": true,
           "convertToMetric": false,
@@ -982,6 +1006,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {
@@ -1071,6 +1099,12 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
@@ -1083,7 +1117,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 126180000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -1237,10 +1270,6 @@
           }
         },
         "presentWeather": {
-          "lightIntensity": "light",
-          "moderateIntensity": "",
-          "heavyIntensity": "heavy",
-          "vicinity": "in vicinity",
           "presentWeatherTypes": {
             "DZ": {
               "text": "DZ",
@@ -1368,6 +1397,12 @@
             "voice": "{weather}"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": true,
           "convertToMetric": false,
@@ -1375,6 +1410,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {
@@ -1464,6 +1503,12 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
@@ -1476,7 +1521,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 127100000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -1623,10 +1667,6 @@
           }
         },
         "presentWeather": {
-          "lightIntensity": "light",
-          "moderateIntensity": "",
-          "heavyIntensity": "heavy",
-          "vicinity": "in vicinity",
           "presentWeatherTypes": {
             "DZ": {
               "text": "DZ",
@@ -1754,6 +1794,12 @@
             "voice": "{weather}"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": true,
           "convertToMetric": false,
@@ -1761,6 +1807,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {
@@ -1850,6 +1900,12 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
@@ -1862,7 +1918,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 125355000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -2009,10 +2064,6 @@
           }
         },
         "presentWeather": {
-          "lightIntensity": "light",
-          "moderateIntensity": "",
-          "heavyIntensity": "heavy",
-          "vicinity": "in vicinity",
           "presentWeatherTypes": {
             "DZ": {
               "text": "DZ",
@@ -2140,6 +2191,12 @@
             "voice": "{weather}"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": true,
           "convertToMetric": false,
@@ -2147,6 +2204,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {
@@ -2236,6 +2297,12 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
@@ -2248,7 +2315,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 129605000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -2446,10 +2512,6 @@
           }
         },
         "presentWeather": {
-          "lightIntensity": "light",
-          "moderateIntensity": "",
-          "heavyIntensity": "heavy",
-          "vicinity": "in vicinity",
           "presentWeatherTypes": {
             "DZ": {
               "text": "DZ",
@@ -2577,6 +2639,12 @@
             "voice": "{weather}"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": true,
           "convertToMetric": false,
@@ -2584,6 +2652,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {
@@ -2673,6 +2745,12 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
@@ -2685,7 +2763,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 130480000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -2832,10 +2909,6 @@
           }
         },
         "presentWeather": {
-          "lightIntensity": "light",
-          "moderateIntensity": "",
-          "heavyIntensity": "heavy",
-          "vicinity": "in vicinity",
           "presentWeatherTypes": {
             "DZ": {
               "text": "DZ",
@@ -2963,6 +3036,12 @@
             "voice": "{weather}"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": true,
           "convertToMetric": false,
@@ -2970,6 +3049,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {
@@ -3059,6 +3142,12 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
@@ -3071,7 +3160,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 126930000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -3209,10 +3297,6 @@
           }
         },
         "presentWeather": {
-          "lightIntensity": "light",
-          "moderateIntensity": "",
-          "heavyIntensity": "heavy",
-          "vicinity": "in vicinity",
           "presentWeatherTypes": {
             "DZ": {
               "text": "DZ",
@@ -3340,6 +3424,12 @@
             "voice": "{weather}"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": true,
           "convertToMetric": false,
@@ -3347,6 +3437,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {
@@ -3436,6 +3530,12 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
@@ -3448,7 +3548,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 125930000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -3581,10 +3680,6 @@
           }
         },
         "presentWeather": {
-          "lightIntensity": "light",
-          "moderateIntensity": "",
-          "heavyIntensity": "heavy",
-          "vicinity": "in vicinity",
           "presentWeatherTypes": {
             "DZ": {
               "text": "DZ",
@@ -3712,6 +3807,12 @@
             "voice": "{weather}"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": true,
           "convertToMetric": false,
@@ -3719,6 +3820,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {
@@ -3808,6 +3913,12 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
@@ -3820,7 +3931,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 131180000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -3948,10 +4058,6 @@
           }
         },
         "presentWeather": {
-          "lightIntensity": "light",
-          "moderateIntensity": "",
-          "heavyIntensity": "heavy",
-          "vicinity": "in vicinity",
           "presentWeatherTypes": {
             "DZ": {
               "text": "DZ",
@@ -4079,6 +4185,12 @@
             "voice": "{weather}"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": true,
           "convertToMetric": false,
@@ -4086,6 +4198,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {
@@ -4175,6 +4291,12 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
@@ -4187,7 +4309,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 118730000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -4325,10 +4446,6 @@
           }
         },
         "presentWeather": {
-          "lightIntensity": "light",
-          "moderateIntensity": "",
-          "heavyIntensity": "heavy",
-          "vicinity": "in vicinity",
           "presentWeatherTypes": {
             "DZ": {
               "text": "DZ",
@@ -4456,6 +4573,12 @@
             "voice": "{weather}"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": true,
           "convertToMetric": false,
@@ -4463,6 +4586,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {
@@ -4552,6 +4679,12 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
@@ -4564,7 +4697,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 127530000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -4697,10 +4829,6 @@
           }
         },
         "presentWeather": {
-          "lightIntensity": "light",
-          "moderateIntensity": "",
-          "heavyIntensity": "heavy",
-          "vicinity": "in vicinity",
           "presentWeatherTypes": {
             "DZ": {
               "text": "DZ",
@@ -4828,6 +4956,12 @@
             "voice": "{weather}"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": true,
           "convertToMetric": false,
@@ -4835,6 +4969,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {
@@ -4924,6 +5062,12 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
@@ -4936,7 +5080,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 136405000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -5078,10 +5221,6 @@
           }
         },
         "presentWeather": {
-          "lightIntensity": "light",
-          "moderateIntensity": "",
-          "heavyIntensity": "heavy",
-          "vicinity": "in vicinity",
           "presentWeatherTypes": {
             "DZ": {
               "text": "DZ",
@@ -5209,6 +5348,12 @@
             "voice": "{weather}"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": true,
           "convertToMetric": false,
@@ -5216,6 +5361,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {
@@ -5305,6 +5454,12 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
@@ -5317,7 +5472,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 133855000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -5450,10 +5604,6 @@
           }
         },
         "presentWeather": {
-          "lightIntensity": "light",
-          "moderateIntensity": "",
-          "heavyIntensity": "heavy",
-          "vicinity": "in vicinity",
           "presentWeatherTypes": {
             "DZ": {
               "text": "DZ",
@@ -5581,6 +5731,12 @@
             "voice": "{weather}"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": true,
           "convertToMetric": false,
@@ -5588,6 +5744,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {
@@ -5677,6 +5837,12 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
@@ -5689,7 +5855,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 129355000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
