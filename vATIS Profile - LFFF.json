@@ -1686,8 +1686,8 @@
       "presets": [
         {
           "id": "1261750c-9c86-4a1f-8f7d-c55e16ec1327",
-          "name": "LFOB 12",
-          "airportConditions": "EXPECT ILS RWY 12. ARR RWY 12, DEP RWY 12. @SID @1V.",
+          "name": "LFOB 12 (PG EAST)",
+          "airportConditions": "EXPECT ILS RWY 12. ARR RWY 12, DEP RWY 12. @SID @1S @1M.",
           "template": "@BONJOUR. [FACILITY] ATIS [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -1695,8 +1695,26 @@
         },
         {
           "id": "6379bad0-8a4a-4c19-aae7-813d5278557f",
-          "name": "LFOB 30",
-          "airportConditions": "EXPECT ILS RWY 30. ARR RWY 30, DEP RWY 30. @SID @1W.",
+          "name": "LFOB 30 (PG WEST)",
+          "airportConditions": "EXPECT ILS RWY 30. ARR RWY 30, DEP RWY 30. @SID @1W @1N.",
+          "template": "@BONJOUR. [FACILITY] ATIS [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "2b48df35-e668-4b87-9e89-b379a616e2a3",
+          "name": "LFOB 12 (PG WEST)",
+          "airportConditions": "EXPECT ILS RWY 12. ARR RWY 12, DEP RWY 12. @SID @1V @1M.",
+          "template": "@BONJOUR. [FACILITY] ATIS [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "fb1793c6-8261-4a3e-ac27-49828d7e7b13",
+          "name": "LFOB 30 (PG EAST)",
+          "airportConditions": "EXPECT ILS RWY 30. ARR RWY 30, DEP RWY 30. @SID @1T @1N.",
           "template": "@BONJOUR. [FACILITY] ATIS [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -1715,14 +1733,34 @@
           "voice": "DEPARTURES"
         },
         {
-          "variableName": "1V",
-          "text": "1V",
-          "voice": "ONE VICTOR"
+          "variableName": "1S",
+          "text": "1S",
+          "voice": "ONE SIERRA"
         },
         {
           "variableName": "1W",
           "text": "1W",
           "voice": "ONE WHISKEY"
+        },
+        {
+          "variableName": "1V",
+          "text": "1V",
+          "voice": "ONE VICTOR"
+        },
+        {
+          "variableName": "1T",
+          "text": "1T",
+          "voice": "ONE TANGO"
+        },
+        {
+          "variableName": "1M",
+          "text": "1M",
+          "voice": "ONE MIKE"
+        },
+        {
+          "variableName": "1N",
+          "text": "1N",
+          "voice": "ONE NOVEMBER"
         }
       ],
       "airportConditionDefinitions": [],
