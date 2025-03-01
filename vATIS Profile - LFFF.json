@@ -1265,7 +1265,7 @@
       "presets": [
         {
           "id": "985d0721-8049-4540-a5a7-2d8ca76009f8",
-          "name": "LFPB 07/09",
+          "name": "LFPB 07/09 EL",
           "airportConditions": "EXPECT @7E ILS 07. ARR RWY 07, DEP RWY 09. @SID @6J.",
           "template": "@BONJOUR. [FACILITY] ATIS [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
@@ -1274,8 +1274,26 @@
         },
         {
           "id": "cad0e3e9-105e-4f52-884a-ec99f021fe91",
-          "name": "LFPB 27/25",
+          "name": "LFPB 27/25 WL",
           "airportConditions": "EXPECT @7W ILS 27. ARR RWY 27, DEP RWY 25. @SID @6C.",
+          "template": "@BONJOUR. [FACILITY] ATIS [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "e6d04e42-c3fd-4219-a9a6-8d0983a47cf6",
+          "name": "LFPB 07/09 EI",
+          "airportConditions": "EXPECT @7E ILS 07. ARR RWY 07, DEP RWY 09. @SID @6M.",
+          "template": "@BONJOUR. [FACILITY] ATIS [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "eee14f80-7138-4501-9e5e-f157108fa746",
+          "name": "LFPB 27/25 WI",
+          "airportConditions": "EXPECT @7W ILS 27. ARR RWY 27, DEP RWY 25. @SID @6F.",
           "template": "@BONJOUR. [FACILITY] ATIS [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -1302,6 +1320,16 @@
           "variableName": "6C",
           "text": "6C",
           "voice": "SIX CHARLIE"
+        },
+        {
+          "variableName": "6M",
+          "text": "6M",
+          "voice": "SIX MIKE"
+        },
+        {
+          "variableName": "6F",
+          "text": "6F",
+          "voice": "SIX FOXTROT"
         },
         {
           "variableName": "7E",
