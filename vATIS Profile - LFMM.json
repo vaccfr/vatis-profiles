@@ -1126,7 +1126,7 @@
         {
           "id": "d20c9d6b-b62d-429e-be55-058ab2a1a96b",
           "name": "LFLL 35",
-          "airportConditions": "EXPECT ILS RWY 35R /ARR RWY 35R /DEP RWY 35L /SID 6N.",
+          "airportConditions": "EXPECT ILS RWY 35R /ARR RWY 35R /DEP RWY 35L /SID 8N.",
           "template": "BONJOUR. [FACILITY] ATIS [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -1135,7 +1135,7 @@
         {
           "id": "dcbc539e-d45b-4e17-b96b-155ec8fedcf0",
           "name": "LFLL 17",
-          "airportConditions": "EXPECT ILS RWY 17L /ARR RWY 17L /DEP RWY 17R /SID 6S.",
+          "airportConditions": "EXPECT ILS RWY 17L /ARR RWY 17L /DEP RWY 17R /SID 8S.",
           "template": "BONJOUR. [FACILITY] ATIS [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -1154,14 +1154,14 @@
           "voice": "DEPARTURES"
         },
         {
-          "variableName": "6N",
-          "text": "6N",
-          "voice": "SIX NOVEMBER"
+          "variableName": "8N",
+          "text": "8N",
+          "voice": "EIGHT NOVEMBER"
         },
         {
-          "variableName": "6S",
-          "text": "6S",
-          "voice": "SIX SIERRA"
+          "variableName": "8S",
+          "text": "8S",
+          "voice": "EIGHT SIERRA"
         },
         {
           "variableName": "TOBT",
