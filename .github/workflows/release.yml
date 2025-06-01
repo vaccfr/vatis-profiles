@@ -7,15 +7,11 @@ on:
       - 'v*'
 
 jobs:
-
   release:
-
     runs-on: ubuntu-latest
-
     steps:
-
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Get version
         id: get_version
@@ -43,4 +39,3 @@ jobs:
           body_path: CHANGELOG.txt
           files: |
             vatis-profiles-${{ steps.get_version.outputs.version-without-v }}.zip
-
