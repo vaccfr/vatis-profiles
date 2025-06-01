@@ -15,17 +15,17 @@ jobs:
 
       - name: Get version
         id: get_version
-        uses: battila7/get-version-action@v2
+        uses: jannemattila/get-version-from-tag@v4
 
       - name: Create ZIP file
         shell: bash
-        run: zip -r vatis-profiles-${{ steps.get_version.outputs.version-without-v }}.zip *.json
+        run: zip -r vatis-profiles-${{ steps.get_version.outputs.version }}.zip *.json
 
       - name: Create release note
         shell: bash
         run: |
           cat > CHANGELOG.txt << EOF
-          [Download Profiles](https://github.com/vaccfr/vatis-profiles/releases/download/${{ steps.get_version.outputs.version }}/vatis-profiles-${{ steps.get_version.outputs.version-without-v }}.zip)
+          [Download Profiles](https://github.com/vaccfr/vatis-profiles/releases/download/v${{ steps.get_version.outputs.version }}/vatis-profiles-${{ steps.get_version.outputs }}.zip)
           ---
           EOF
 
@@ -33,9 +33,9 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/v')
         uses: softprops/action-gh-release@v1
         with:
-          name: vATIS Profiles ${{ steps.get_version.outputs.version-without-v }}
+          name: vATIS Profiles ${{ steps.get_version.outputs.version }}
           prerelease: false
           draft: true
           body_path: CHANGELOG.txt
           files: |
-            vatis-profiles-${{ steps.get_version.outputs.version-without-v }}.zip
+            vatis-profiles-${{ steps.get_version.outputs.version }}.zip
