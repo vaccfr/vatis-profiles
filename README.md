@@ -37,10 +37,12 @@ This repository contains the vATIS Profiles used by French vACC Controllers.
 
 ### LFFF
 
+- LFAT: Le Touquet
 - LFOB: Beauvais
 - LFPB: Paris Le Bourget
 - LFPG: Paris CDG
 - LFPO: Paris Orly
+- LFPN: Paris-Saclay-Versailles
 - LFQQ: Lille
 
 ### LFMM
@@ -64,5 +66,8 @@ This repository contains the vATIS Profiles used by French vACC Controllers.
 ### LFRR
 
 - LFRB: Brest
+- LFRD: Dinard
+- LFRG: Rennes
+- LFRK: Caen
 - LFRN: Rennes
 - LFRS: Nantes
