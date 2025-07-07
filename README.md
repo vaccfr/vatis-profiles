@@ -55,6 +55,7 @@ This repository contains the vATIS Profiles used by French vACC Controllers.
 - LFLC: Clermont-Ferrand
 - LFLL: Lyon
 - LFLS: Grenoble
+- LFLY: Bron
 - LFMD: Cannes
 - LFML: Marseille
 - LFMN: Nice
