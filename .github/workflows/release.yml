@@ -15,7 +15,10 @@ jobs:
 
       - name: Get version
         id: get_version
-        uses: jannemattila/get-version-from-tag@v4
+        shell: bash
+        run: |
+          version=$(echo ${{ github.ref }} | sed -E 's/refs\/tags\/(v)?//g')
+          echo "version=$version" >> $GITHUB_OUTPUT
 
       - name: Create ZIP file
         shell: bash
