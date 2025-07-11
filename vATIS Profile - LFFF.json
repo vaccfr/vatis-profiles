@@ -345,7 +345,7 @@
         {
           "id": "24f418d4-5ecd-499d-8817-49be2b84c216",
           "name": "LFPG 08/09 EL",
-          "airportConditions": "EXPECT 1E 1N ILS 09L AND 1E 1N ILS 08R. ARR RWYS 09L AND 08R, DEP RWYS 09R AND 08L. SID 6G AND 6H.",
+          "airportConditions": "EXPECT 1E 1N ILS ^09L AND 1E 1N ILS ^08R. ARR RWYS ^09L AND ^08R, DEP RWYS ^09R AND ^08L. SID 6G AND 6H.",
           "template": "BONJOUR. [FACILITY] ATIS [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -354,7 +354,7 @@
         {
           "id": "46433c45-4f02-4d74-bcbd-8e9219de1f1d",
           "name": "LFPG 26/27 WL",
-          "airportConditions": "EXPECT 1W ILS 27R AND 1W ILS 26L. ARR RWYS 27R AND 26L, DEP RWYS 27L AND 26R. SID 6A AND 6B.",
+          "airportConditions": "EXPECT 1W ILS ^27R AND 1W ILS ^26L. ARR RWYS ^27R AND ^26L, DEP RWYS ^27L AND ^26R. SID 6A AND 6B.",
           "template": "BONJOUR. [FACILITY] ATIS [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -363,7 +363,7 @@
         {
           "id": "41817aa5-6464-4449-954f-f50002405587",
           "name": "LFPG 08/09 EI",
-          "airportConditions": "EXPECT 1E 1N ILS 09L AND 1E 7N ILS 08R. ARR RWYS 09L AND 08R, DEP RWYS 09R AND 08L. SID 6K AND 6L.",
+          "airportConditions": "EXPECT 1E 1N ILS ^09L AND 1E 7N ILS ^08R. ARR RWYS ^09L AND ^08R, DEP RWYS ^09R AND ^08L. SID 6K AND 6L.",
           "template": "BONJOUR. [FACILITY] ATIS [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -372,7 +372,7 @@
         {
           "id": "892c3007-e9fd-4887-92cb-e99d1351b357",
           "name": "LFPG 26/27 WI",
-          "airportConditions": "EXPECT 1W ILS 27R AND 1W ILS 26L. ARR RWYS 27R AND 26L, DEP RWYS 27L AND 26R. SID 6D AND 6E.",
+          "airportConditions": "EXPECT 1W ILS ^27R AND 1W ILS ^26L. ARR RWYS ^27R AND ^26L, DEP RWYS ^27L AND ^26R. SID 6D AND 6E.",
           "template": "BONJOUR. [FACILITY] ATIS [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -4134,7 +4134,7 @@
         {
           "id": "800807e2-5e63-4033-a7d9-5d826fdab91e",
           "name": "LFPN 25R WL",
-          "airportConditions": "EXPECT APPROACH 1W 1X ILS 25R. ARR RWY 25R, DEP RWY 25R. SID 2P.",
+          "airportConditions": "EXPECT APPROACH 1W 1X ILS ^25R. ARR RWY ^25R, DEP RWY ^25R. SID 2P.",
           "notams": "",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
@@ -4144,7 +4144,7 @@
         {
           "id": "a47995dc-0a19-47a0-8f9f-9cf0e670135d",
           "name": "LFPN 07L EL",
-          "airportConditions": "EXPECT APPROACH 1E 1F RNP 07L. ARR RWY 07L, DEP RWY 07L. SID 2A.",
+          "airportConditions": "EXPECT APPROACH 1E 1F RNP^07L. ARR RWY^07L, DEP RWY^07L. SID 2A.",
           "notams": "",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
@@ -4154,7 +4154,7 @@
         {
           "id": "b3e6270f-3fda-476c-8d2e-8804823e694d",
           "name": "LFPN 25R WI",
-          "airportConditions": "EXPECT APPROACH 1W 1X ILS 25R. ARR RWY 25R, DEP RWY 25R. SID 2V.",
+          "airportConditions": "EXPECT APPROACH 1W 1X ILS ^25R. ARR RWY ^25R, DEP RWY ^25R. SID 2V.",
           "notams": "",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
@@ -4164,7 +4164,7 @@
         {
           "id": "42923658-5930-4f5d-ad31-cca3c47adadd",
           "name": "LFPN 07L EI",
-          "airportConditions": "EXPECT APPROACH 1F 1Y RNP 07L. ARR RWY 07L, DEP RWY 07L. SID 2B.",
+          "airportConditions": "EXPECT APPROACH 1F 1Y RNP^07L. ARR RWY^07L, DEP RWY^07L. SID 2B.",
           "notams": "",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
