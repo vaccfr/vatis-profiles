@@ -438,7 +438,7 @@
         {
           "variableName": "1E",
           "text": "1E",
-          "voice": "SEVEN ECHO"
+          "voice": "ONE ECHO"
         },
         {
           "variableName": "1N",
@@ -6263,3 +6263,4 @@
     }
   ]
 }
+
