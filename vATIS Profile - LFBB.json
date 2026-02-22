@@ -3078,7 +3078,7 @@
         {
           "id": "8799203a-4d6a-4cd6-b396-b737dfb76495",
           "name": "LFBL 03",
-          "airportConditions": "EXPECT RNP RWY 03. ARR RWY 03, DEP RWY 03. SID 3A",
+          "airportConditions": "EXPECT RNP RWY 03. ARR RWY 03, DEP RWY 03. SID 4A",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -3087,7 +3087,7 @@
         {
           "id": "57708391-f267-46a3-84ac-fcd0bbdb0043",
           "name": "LFBL 21",
-          "airportConditions": "EXPECT ILS RWY 21. ARR RWY 21, DEP RWY 21. SID 3B",
+          "airportConditions": "EXPECT ILS RWY 21. ARR RWY 21, DEP RWY 21. SID 4B",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false

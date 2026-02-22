@@ -345,7 +345,7 @@
         {
           "id": "8f242676-50d8-432e-9300-4a9251f9f601",
           "name": "LFSB 15",
-          "airportConditions": "EXPECT ILS Z RWY 15. ARR RWY 15, DEP RWY 15. SID 7S AND 7T",
+          "airportConditions": "EXPECT ILS Z RWY 15. ARR RWY 15, DEP RWY 15. SID 8S AND 8T",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -354,7 +354,7 @@
         {
           "id": "3a3e23d5-5f88-4291-abd1-082a44e10f95",
           "name": "LFSB 33",
-          "airportConditions": "EXPECT ILS Z RWY 33. ARR RWY 33, DEP RWY 33. SID 7N",
+          "airportConditions": "EXPECT ILS Z RWY 33. ARR RWY 33, DEP RWY 33. SID 8N",
           "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
