@@ -345,7 +345,7 @@
         {
           "id": "d8769532-b9ff-415a-be36-813843d57777",
           "name": "LFMT 12",
-          "airportConditions": "EXPECT RNP RWY 12L. ARR RWY 12L, DEP RWY 12L. SID 7L",
+          "airportConditions": "EXPECT RNP RWY 12L. ARR RWY 12L, DEP RWY 12L. SID 8L",
           "template": "BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -354,7 +354,7 @@
         {
           "id": "1a764042-3e6f-4bc8-873b-e5d614115faf",
           "name": "LFMT 30",
-          "airportConditions": "EXPECT ILS Z RWY 30R. ARR RWY 30R, DEP RWY 30R. SID 7R",
+          "airportConditions": "EXPECT ILS Z RWY 30R. ARR RWY 30R, DEP RWY 30R. SID 8R",
           "template": "BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -2772,7 +2772,7 @@
         {
           "id": "b2696a77-27bd-4171-99b5-c3b4eebd628a",
           "name": "LFMD 17 LOC A",
-          "airportConditions": "EXPECT LOC A RWY 17 THEN VPT A RWY 17. ARR RWY 17, DEP RWY 17. SID 9K.",
+          "airportConditions": "EXPECT LOC A RWY 17 THEN VPT A RWY 17. ARR RWY 17, DEP RWY 17. SID 1K.",
           "template": "BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -2781,7 +2781,7 @@
         {
           "id": "fd98c929-96bd-467f-b362-2a4491d4a455",
           "name": "LFMD 17 RNP A",
-          "airportConditions": "EXPECT RNP A RWY 17 THEN VPT A RWY 17. ARR RWY 17, DEP RWY 17. SID 9K.",
+          "airportConditions": "EXPECT RNP A RWY 17 THEN VPT A RWY 17. ARR RWY 17, DEP RWY 17. SID 1K.",
           "template": "BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -2790,7 +2790,7 @@
         {
           "id": "f6cec980-87d4-4195-8e4f-b5262d8768e0",
           "name": "LFMD 35",
-          "airportConditions": "EXPECT RNP Y RWY 35. ARR RWY 35, DEP RWY 17. SID 9K.",
+          "airportConditions": "EXPECT RNP Y RWY 35. ARR RWY 35, DEP RWY 17. SID 1K.",
           "template": "BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
