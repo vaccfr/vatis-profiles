@@ -2,6 +2,8 @@
   "version": 1,
   "name": "LFMM",
   "id": "74bf29c6-12b2-41c4-b318-77739a38300d",
+  "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFMM.json",
+  "updateSerial": 2026022501,
   "stations": [
     {
       "id": "4e8ab8ca-65ca-4f68-8c6f-4726c3789062",

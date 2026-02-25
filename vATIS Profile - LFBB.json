@@ -2,6 +2,8 @@
   "version": 1,
   "name": "LFBB",
   "id": "149be2dc-b691-4950-9921-35027760dfcb",
+  "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFBB.json",
+  "updateSerial": 2026022501,
   "stations": [
     {
       "id": "87b9a4f6-1fa7-42d3-ab0a-07cf38622b3c",

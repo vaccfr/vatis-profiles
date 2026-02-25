@@ -2,6 +2,8 @@
   "version": 1,
   "name": "LFEE",
   "id": "cfd59cef-db10-41e7-b8ec-00d4f809f0cf",
+  "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFEE.json",
+  "updateSerial": 2026022501,
   "stations": [
     {
       "id": "f5f01323-dd5e-499c-a46a-02b2da877db0",
