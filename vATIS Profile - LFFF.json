@@ -2,6 +2,8 @@
   "version": 1,
   "name": "LFFF",
   "id": "5b2ef6b9-21e9-4774-a8fc-27111ec75969",
+  "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFFF.json",
+  "updateSerial": 2026022501,
   "stations": [
     {
       "id": "2832e98f-55a4-4785-b08b-178ac694a948",

@@ -2,6 +2,8 @@
   "version": 1,
   "name": "LFRR",
   "id": "4166f265-37cd-4b02-b9c2-cc3b6e4a6618",
+  "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFRR.json",
+  "updateSerial": 2026022501,
   "stations": [
     {
       "id": "25a62aca-ef8e-4dd2-b038-89abc76f130c",
