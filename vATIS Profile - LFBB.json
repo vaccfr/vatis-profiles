@@ -6299,7 +6299,7 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "frequency": 124480000,
+      "frequency": 127480000,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
