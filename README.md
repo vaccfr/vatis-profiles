@@ -122,7 +122,6 @@ This repository contains the **French vACC vATIS profiles** used on **VATSIM**.
 - **LFTW** — Nîmes  
 
 ### TMA Nice
-- **LFMC** — Le Luc *WIP*  
 - **LFMD** — Cannes  
 - **LFMN** — Nice *D-ATIS*  
 - **LFTH** — Hyères  
