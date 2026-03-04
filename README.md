@@ -1,74 +1,150 @@
-# French vACC vATIS Profiles
+# 🇫🇷 French vATIS Profiles
 
-## About
+## ✈️ About
 
-This repository contains the vATIS Profiles used by French vACC Controllers.
+This repository contains the **French vACC vATIS profiles** used on **VATSIM**.
 
-> [!CAUTION]
-> The profiles are now only compatible with vATIS 4.1.0 and above (X-Platform) available here: https://vatis.app.
+> ⚠️ **Compatibility Notice**  
+> These profiles are **only compatible with vATIS `4.1.0-beta.19` and later** (cross-platform).  
+> 👉 Download vATIS here: https://vatis.app
 
-## Download
+> 💡 **Automatic Updates Enabled**  
+> Profiles only need to be imported **once**.  
+> All future updates are delivered **automatically**.
+>
+> You can verify your profile version by checking the **date displayed next to the profile name** in vATIS  
+> (e.g. `FIR LFMM (21/01/2026)`).
 
-[![Release](https://img.shields.io/github/v/release/vaccfr/vatis-profiles?style=for-the-badge&color=green)][1]
+---
 
-[1]: https://github.com/vaccfr/vatis-profiles/releases/latest
+# 🗺️ Supported Airports
 
-## Supported Airports
+## 🟦 LFBB — Bordeaux FIR
 
-### LFBB
+### Aquitaine Area
+- **LFBD** — Bordeaux Mérignac  
+- **LFBE** — Bergerac  
 
-- LFBD: Bordeaux
-- LFBE: Bergerac
-- LFBH: La Rochelle
-- LFBI: Poitiers
-- LFMK: Carcasonne
-- LFBL: Limoges
-- LFBO: Toulouse
-- LFBP: Pau
-- LFBT: Tarbes
-- LFBZ: Biarritz
+### Biarritz Area
+- **LFBZ** — Biarritz  
 
-### LFEE
+### La Rochelle Area
+- **LFBH** — La Rochelle  
 
-- LFGA: Colmar
-- LFJL: Metz
-- LFSB: Bale
-- LFST: Strasbourg
+### Limoges Area
+- **LFBL** — Limoges  
+- **LFBU** — Angoulême  
 
-### LFFF
+### Poitiers Area
+- **LFBI** — Poitiers  
 
-- LFAT: Le Touquet
-- LFOB: Beauvais
-- LFPB: Paris Le Bourget
-- LFPG: Paris CDG
-- LFPO: Paris Orly
-- LFPN: Paris-Saclay-Versailles
-- LFQQ: Lille
+### Pyrénées Area
+- **LFBP** — Pau *D-ATIS*  
+- **LFBT** — Tarbes Lourdes  
 
-### LFMM
+### Toulouse Area
+- **LFBA** — Agen  
+- **LFBO** — Toulouse Blagnac  
+- **LFBR** — Toulouse Francazal  
+- **LFCL** — Toulouse Lasbordes  
+- **LFMK** — Carcassonne  
 
-- LFKB: Bastia
-- LFKC: Calvi
-- LFKF: Figari
-- LFKJ: Ajaccio
-- LFLB: Chambery
-- LFLC: Clermont-Ferrand
-- LFLL: Lyon
-- LFLS: Grenoble
-- LFLY: Bron
-- LFMD: Cannes
-- LFML: Marseille
-- LFMN: Nice
-- LFMP: Perpignan
-- LFMT: Montpellier
-- LFMU: Beziers
-- LFTW: Nimes
+---
 
-### LFRR
+## 🟩 LFEE — Reims FIR
 
-- LFRB: Brest
-- LFRD: Dinard
-- LFRG: Rennes
-- LFRK: Caen
-- LFRN: Rennes
-- LFRS: Nantes
+### Basle Area
+- **LFGA** — Colmar  
+- **LFGJ** — Dole  
+- **LFSB** — Basel Mulhouse  
+
+### Strasbourg Area
+- **LFJL** — Metz Nancy Lorraine  
+- **LFST** — Strasbourg  
+
+---
+
+## 🟥 LFFF — Paris FIR
+
+### Lille Area
+- **LFAT** — Le Touquet  
+- **LFOP** — Rouen  
+- **LFQQ** — Lille  
+
+### Paris Area
+- **LFOB** — Beauvais  
+- **LFPB** — Paris Le Bourget *D-ATIS*  
+- **LFPG** — Paris Charles de Gaulle *D-ATIS*  
+- **LFPL** — Lognes  
+- **LFPN** — Paris-Saclay-Versailles  
+- **LFPO** — Paris Orly *D-ATIS*  
+
+### Seine Area
+- **LFOK** — Châlons-Vatry  
+
+---
+
+## 🟨 LFMM — Marseille FIR
+
+### TMA Ajaccio
+- **LFKF** — Figari  
+- **LFKJ** — Ajaccio  
+
+### TMA Bastia
+- **LFKB** — Bastia  
+- **LFKC** — Calvi  
+
+### TMA Chambéry
+- **LFLB** — Chambéry  
+
+### TMA Clermont
+- **LFCR** — Rodez  
+- **LFLC** — Clermont-Ferrand  
+
+### TMA Lyon
+- **LFLG** — Grenoble Le Versoud  
+- **LFLL** — Lyon Saint-Exupéry *D-ATIS*  
+- **LFLS** — Grenoble Alpes Isère  
+- **LFLY** — Lyon Bron  
+- **LFMH** — Saint-Étienne  
+
+### TMA Marseille
+- **LFMA** — Aix-les-Milles  
+- **LFML** — Marseille Provence  
+- **LFMV** — Avignon  
+
+### TMA Montpellier
+- **LFMP** — Perpignan  
+- **LFMT** — Montpellier  
+- **LFMU** — Béziers  
+- **LFTW** — Nîmes  
+
+### TMA Nice
+- **LFMC** — Le Luc *WIP*  
+- **LFMD** — Cannes  
+- **LFMN** — Nice *D-ATIS*  
+- **LFTH** — Hyères  
+
+### TMA Saint-Yan
+- **LFLN** — Saint-Yan  
+
+---
+
+## 🟪 LFRR — Brest FIR
+
+### Iroise Area
+- **LFRB** — Brest  
+
+### Lorient Area
+- **LFRH** — Lorient  
+
+### Nantes Area
+- **LFRS** — Nantes Atlantique  
+
+### Rennes Area
+- **LFRD** — Dinard  
+- **LFRG** — Deauville  
+- **LFRK** — Caen  
+- **LFRN** — Rennes  
+
+---
