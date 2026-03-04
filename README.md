@@ -19,6 +19,27 @@ This repository contains the **French vACC vATIS profiles** used on **VATSIM**.
 
 ---
 
+## ⚙️ Airport Conditions & NOTAMs
+
+### Airport Conditions
+
+![vACCFR_GitHub_vATIS_airport_conditions](https://github.com/user-attachments/assets/ae375a6b-57b2-4e6b-8148-9f056b01220f)
+
+Clicking the **AIRPORT CONDITIONS** label above the free-form text box allows you to select **pre-defined airport conditions**.
+
+You can still **type and manually edit your own conditions** in the free-form text field if needed.  
+It is also possible to **modify the Runway Condition Code (RWYCC)** directly within this free-text section.
+
+### NOTAMs
+
+![vACCFR_GitHub_vATIS_notams](https://github.com/user-attachments/assets/54dbcf07-d04c-4a9b-82ff-436c878b8508)
+
+Similarly, clicking the **NOTAMs** label above the free-form text box allows you to **select pre-defined NOTAMs**.
+
+You may also **manually type or edit NOTAM information** directly in the free-form text field.
+
+---
+
 # 🗺️ Supported Airports
 
 ## 🟦 LFBB — Bordeaux FIR
