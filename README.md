@@ -17,6 +17,12 @@ This repository contains the **French vACC vATIS profiles** used on **VATSIM**.
 > You can verify your profile version by checking the **date displayed next to the profile name** in vATIS  
 > (e.g. `FIR LFMM (21/01/2026)`).
 
+## 📂 Download
+
+[![Release](https://img.shields.io/github/v/release/vaccfr/vatis-profiles?style=for-the-badge&color=green)][1]
+
+[1]: https://github.com/vaccfr/vatis-profiles/releases/latest
+
 ---
 
 ## ⚙️ Airport Conditions & NOTAMs
