@@ -30,6 +30,9 @@ Clicking the **AIRPORT CONDITIONS** label above the free-form text box allows yo
 You can still **type and manually edit your own conditions** in the free-form text field if needed.  
 It is also possible to **modify the Runway Condition Code (RWYCC)** directly within this free-text section.
 
+📖 **More information:**  
+https://vatis.app/docs/client/airport-conditions
+
 ### NOTAMs
 
 ![vACCFR_GitHub_vATIS_notams](https://github.com/user-attachments/assets/54dbcf07-d04c-4a9b-82ff-436c878b8508)
@@ -37,6 +40,9 @@ It is also possible to **modify the Runway Condition Code (RWYCC)** directly wit
 Similarly, clicking the **NOTAMs** label above the free-form text box allows you to **select pre-defined NOTAMs**.
 
 You may also **manually type or edit NOTAM information** directly in the free-form text field.
+
+📖 **More information:**  
+https://vatis.app/docs/client/notams
 
 ---
 
