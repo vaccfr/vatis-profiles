@@ -7,7 +7,7 @@
 This repository contains the **French vACC vATIS profiles** used on **VATSIM**.
 
 > ⚠️ **Compatibility Notice**  
-> These profiles are **only compatible with vATIS `4.1.0-beta.19` and later** (cross-platform).  
+> These profiles are **only compatible with vATIS `4.1.0-beta.5` and later** (cross-platform).  
 > 👉 Download vATIS here: https://vatis.app
 
 > 💡 **Automatic Updates Enabled**  
