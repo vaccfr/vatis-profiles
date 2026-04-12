@@ -2326,7 +2326,7 @@
         {
           "id": "3a33ef81-5f7c-46c0-b6f6-96b349c73639",
           "name": "LFMN 04 RNP A",
-          "airportConditions": "EXPECT RNP A THEN VPT A RWY 04L /ARR RWY 04L /DEP RWY 04R /SID 7A, 7B",
+          "airportConditions": "EXPECT RNP A THEN VPT A RWY 04L /ARR RWY 04L /DEP RWY 04R /SID 8A, 8B",
           "template": "BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -2335,7 +2335,7 @@
         {
           "id": "6994627e-6062-4245-a6bf-a68a6a1c75c1",
           "name": "LFMN 04 RNP Z",
-          "airportConditions": "EXPECT RNP Z RWY 04L /ARR RWY 04L /DEP RWY 04R /SID 7A, 7B",
+          "airportConditions": "EXPECT RNP Z RWY 04L /ARR RWY 04L /DEP RWY 04R /SID 8A, 8B",
           "template": "BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
@@ -2344,7 +2344,7 @@
         {
           "id": "705b5fed-af17-4d46-ad43-419676337b91",
           "name": "LFMN 22",
-          "airportConditions": "EXPECT RNP D THEN VPT D RWY 22R. RNP Z ON RQST /ARR RWY 22R /DEP RWY 22L /SID 7X, 7Y",
+          "airportConditions": "EXPECT RNP D THEN VPT D RWY 22R. RNP Z ON RQST /ARR RWY 22R /DEP RWY 22L /SID 8X, 8Y",
           "template": "BONJOUR. [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
