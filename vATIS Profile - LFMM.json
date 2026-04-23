@@ -3199,6 +3199,11 @@
           "voice": "DEPARTURES"
         },
         {
+          "variableName": "1N",
+          "text": "1N",
+          "voice": "ONE NOVEMBER"
+        },
+        {
           "variableName": "1K",
           "text": "1K",
           "voice": "ONE KILO"
