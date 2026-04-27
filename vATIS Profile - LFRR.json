@@ -3,7 +3,7 @@
   "name": "LFRR",
   "id": "4166f265-37cd-4b02-b9c2-cc3b6e4a6618",
   "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFRR.json",
-  "updateSerial": 2026041201,
+  "updateSerial": 2026042301,
   "stations": [
     {
       "id": "25a62aca-ef8e-4dd2-b038-89abc76f130c",
@@ -348,7 +348,7 @@
           "id": "a2928c8b-1468-4b3c-814a-0f12f25f6d1a",
           "name": "LFRS 03",
           "airportConditions": "EXPECT ILS RWY 03. ARR RWY 03, DEP RWY 03. SID 4N",
-          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
+          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND] [NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -357,7 +357,7 @@
           "id": "5dc442fa-1c3a-453a-90c8-92d8ff2d71dd",
           "name": "LFRS 21",
           "airportConditions": "EXPECT RNP RWY 21. ARR RWY 21, DEP RWY 21. SID 4S",
-          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
+          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND] [NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -1114,7 +1114,7 @@
           "id": "fa7aa900-2279-4c53-97f7-3731ea16b118",
           "name": "LFRN 10",
           "airportConditions": "EXPECT ILS RWY 10. ARR RWY 10, DEP RWY 10. SID 5T",
-          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
+          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND] [NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -1123,7 +1123,7 @@
           "id": "c6bc8603-eb1f-4a76-b4d4-e05b3ad65268",
           "name": "LFRN 28",
           "airportConditions": "EXPECT ILS RWY 28. ARR RWY 28, DEP RWY 28. SID 5V AND 5W",
-          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS]. [TL]. [FULL_WX_STRING]. ",
+          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND] [NOTAMS]. [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -3141,7 +3141,7 @@
           "name": "LFRG 12",
           "airportConditions": "EXPECT RNP RWY 12. ARR RWY 12, DEP RWY 12. SID 4E AND 1U.",
           "notams": "",
-          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
+          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND] [NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -3157,7 +3157,7 @@
           "name": "LFRG 30",
           "airportConditions": "EXPECT ILS Z RWY 30. ARR RWY 30, DEP RWY 30. SID 4W AND 1V.",
           "notams": "",
-          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
+          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND] [NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -5180,7 +5180,7 @@
           "name": "LFRD 17",
           "airportConditions": "EXPECT RNP RWY 17. ARR RWY 17, DEP RWY 17. SID 2S.",
           "notams": "",
-          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
+          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND] [NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -5196,7 +5196,7 @@
           "name": "LFRD 35",
           "airportConditions": "EXPECT RNP RWY 35. ARR RWY 35, DEP RWY 35. SID 2N.",
           "notams": "",
-          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
+          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND] [NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -7209,7 +7209,7 @@
           "name": "LFRK 13",
           "airportConditions": "EXPECT RNP RWY 13. ARR RWY 13, DEP RWY 13. SID 4X AND 1S.",
           "notams": "",
-          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
+          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND] [NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -7225,7 +7225,7 @@
           "name": "LFRK 31",
           "airportConditions": "EXPECT ILS Z RWY 31. ARR RWY 31, DEP RWY 31. SID 4Y AND 1N.",
           "notams": "",
-          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND][NOTAMS] [TL]. [FULL_WX_STRING]. ",
+          "template": "BONJOUR. THIS IS [FACILITY] INFORMATION [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND] [NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
             "enabled": false
           }
