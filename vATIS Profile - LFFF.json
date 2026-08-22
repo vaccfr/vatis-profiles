@@ -3,7 +3,7 @@
   "name": "LFFF",
   "id": "5b2ef6b9-21e9-4774-a8fc-27111ec75969",
   "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFFF.json",
-  "updateSerial": 2026081901,
+  "updateSerial": 2026082201,
   "stations": [
     {
       "id": "2832e98f-55a4-4785-b08b-178ac694a948",
@@ -857,7 +857,7 @@
         {
           "id": "0c6fa667-b19a-4def-a167-6d5a330ca8f8",
           "name": "LFPO 20/25 WL - 24 CLOSED",
-          "airportConditions": "EXPECT 1W ILS 25. ARR RWY 25, DEP RWY 20. SID 2Y.",
+          "airportConditions": "EXPECT 1W ILS 25. ARR RWY 25, DEP RWY 20. SID 2A.",
           "notams": "RWY 06/24 CLSD. ",
           "template": "BONJOUR. [FACILITY] ATIS [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND] [NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
@@ -867,7 +867,7 @@
         {
           "id": "bdb0ab47-6fa0-4803-b984-856bd66397e9",
           "name": "LFPO 20/25 IPOW - 24 CLOSED",
-          "airportConditions": "EXPECT 1W ILS 25. ARR RWY 25, DEP RWY 20. SID 2S.",
+          "airportConditions": "EXPECT 1W ILS 25. ARR RWY 25, DEP RWY 20. SID 2B.",
           "notams": "RWY 06/24 CLSD. ",
           "template": "BONJOUR. [FACILITY] ATIS [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND] [NOTAMS] [TL]. [FULL_WX_STRING]. ",
           "externalGenerator": {
