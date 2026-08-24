@@ -21468,10 +21468,10 @@
         {
           "id": "9903eecf-9788-4a34-a437-3f983007293e",
           "ordinal": 3,
-          "name": "DEP RWY 07 | ARR RWY 02 (EL / ILS)",
+          "name": "DEP RWY 07 | ARR RWY 02 (EL / RNP)",
           "airportConditions": "",
           "notams": "",
-          "template": "LFPO ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT ILS RWY 02\r\nARR RWY02 DEP RWY07 SID 2E\r\nRSCD\r\n[ARPT_COND]\r\nRWY06 CLSD DUE TO WORKS\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\nCROSSED RWY OPERATION IN FORCE\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[PRESENT_WX]\r\n[CLOSING]",
+          "template": "LFPO ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP RWY 02\r\nARR RWY02 DEP RWY07 SID 2E\r\nRSCD\r\n[ARPT_COND]\r\nRWY06 CLSD DUE TO WORKS\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\nHELICOPTER TRANSIT IS CLSD OHD TWR\r\nCROSSED RWY OPERATION IN FORCE\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[PRESENT_WX]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -21520,7 +21520,7 @@
           "name": "DEP RWY 20 | ARR RWY 25 (WL / ILS Y)",
           "airportConditions": "",
           "notams": "",
-          "template": "LFPO ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT ILS_Y RWY25\r\nARR RWY25 DEP RWY20 SID 2A\r\nRSCD\r\n[ARPT_COND]\r\nRWY24 CLSD DUE TO WORKS\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\nCROSSED RWY OPERATION IN FORCE\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[PRESENT_WX]\r\n[CLOSING]",
+          "template": "LFPO ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT ILS_Y RWY25\r\nARR RWY25 DEP RWY20 SID 2A\r\nRSCD\r\n[ARPT_COND]\r\nRWY24 CLSD DUE TO WORKS\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\nHELICOPTER TRANSIT IS CLSD OHD TWR\r\nCROSSED RWY OPERATION IN FORCE\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[PRESENT_WX]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -21566,10 +21566,10 @@
         {
           "id": "44823021-2ae5-49f3-ba0b-0c78ed434615",
           "ordinal": 8,
-          "name": "DEP RWY 07 | ARR RWY 02 (IPGW / ILS)",
+          "name": "DEP RWY 07 | ARR RWY 02 (IPGW / RNP)",
           "airportConditions": "",
           "notams": "",
-          "template": "LFPO ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT ILS RWY 02\r\nARR RWY02 DEP RWY07 SID 2H\r\nRSCD\r\n[ARPT_COND]\r\nRWY06 CLSD DUE TO WORKS\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\nCROSSED RWY OPERATION IN FORCE\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[PRESENT_WX]\r\n[CLOSING]",
+          "template": "LFPO ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP RWY 02\r\nARR RWY02 DEP RWY07 SID 2H\r\nRSCD\r\n[ARPT_COND]\r\nRWY06 CLSD DUE TO WORKS\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\nHELICOPTER TRANSIT IS CLSD OHD TWR\r\nCROSSED RWY OPERATION IN FORCE\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[PRESENT_WX]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -21618,7 +21618,7 @@
           "name": "DEP RWY 20 | ARR RWY 25 (IPOW / ILS Y)",
           "airportConditions": "",
           "notams": "",
-          "template": "LFPO ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT ILS_Y RWY25\r\nARR RWY25 DEP RWY20 SID 2B\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[PRESENT_WX]\r\n[CLOSING]",
+          "template": "LFPO ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT ILS_Y RWY25\r\nARR RWY25 DEP RWY20 SID 2B\r\nRSCD\r\n[ARPT_COND]\r\nRWY24 CLSD DUE TO WORKS\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\nHELICOPTER TRANSIT IS CLSD OHD TWR\r\nCROSSED RWY OPERATION IN FORCE\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[PRESENT_WX]\r\n[CLOSING] ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
