@@ -2,7 +2,7 @@
   "name": "LFEE Reims FIR",
   "id": "cfd59cef-db10-41e7-b8ec-00d4f809f0cf",
   "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFEE.json",
-  "updateSerial": 2026082301,
+  "updateSerial": 2026090301,
   "stations": [
     {
       "id": "4fd50b0e-5eef-4ef9-91af-6c7a46ebb227",

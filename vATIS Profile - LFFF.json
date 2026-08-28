@@ -2,7 +2,7 @@
   "name": "LFFF Paris FIR",
   "id": "5b2ef6b9-21e9-4774-a8fc-27111ec75969",
   "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFFF.json",
-  "updateSerial": 2026082302,
+  "updateSerial": 2026090301,
   "stations": [
     {
       "id": "a0fbb0d0-d535-4c55-a6e8-92340ec0a204",
@@ -12786,7 +12786,7 @@
           "name": "DEP RWY 08L/09R | ARR RWY 08R/09L (EL / ILS)",
           "airportConditions": "",
           "notams": "",
-          "template": "LFPG ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT 1E 1N ILS ^09L AND 1E 1N ILS ^08R\r\nARR RWY09L AND ^08R DEP RWY09R AND ^08L SID 6G 6H\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\nARRIVALS VIA LORNI AND\r\nOKIPA EXPECT 1X APCH\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA :\r\n[PRESENT_WX]\r\n[CLOSING]",
+          "template": "LFPG ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT 1E 1N ILS ^09L AND 1E 1N ILS ^08R\r\nARR RWY09L AND ^08R DEP RWY09R AND ^08L SID 6G 6H\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA :\r\n[PRESENT_WX]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12818,7 +12818,7 @@
           "name": "DEP RWY 26R/27L | ARR RWY 26L/27R (WL / ILS)",
           "airportConditions": "",
           "notams": "",
-          "template": "LFPG ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT 1W ILS ^26L AND 1W ILS ^27R\r\nARR RWY26L AND ^27R DEP RWY26R AND ^27L SID 6A 6B\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\nARRIVALS VIA MOPAR AND\r\nBANOX EXPECT 1X APCH\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA :\r\n[PRESENT_WX]\r\n[CLOSING]",
+          "template": "LFPG ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT 1W ILS ^26L AND 1W ILS ^27R\r\nARR RWY26L AND ^27R DEP RWY26R AND ^27L SID 6A 6B\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA :\r\n[PRESENT_WX]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -13127,6 +13127,21 @@
         {
           "text": "CDM_ACTIVE",
           "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "ARRIVALS VIA LORNI AND\r\nOKIPA EXPECT 1X APCH",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "ARRIVALS VIA LORNI AND\r\nOKIPA EXPECT 1X 1R APCH",
+          "ordinal": 5,
+          "enabled": false
+        },
+        {
+          "text": "ARRIVALS VIA MOPAR AND\r\nBANOX EXPECT 1X APCH",
+          "ordinal": 6,
           "enabled": false
         }
       ]
@@ -21569,7 +21584,7 @@
           "name": "DEP RWY 07 | ARR RWY 02 (IPGW / RNP)",
           "airportConditions": "",
           "notams": "",
-          "template": "LFPO ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP RWY 02\r\nARR RWY02 DEP RWY07 SID 2H\r\nRSCD\r\n[ARPT_COND]\r\nRWY06 CLSD DUE TO WORKS\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\nHELICOPTER TRANSIT IS CLSD OHD TWR\r\nCROSSED RWY OPERATION IN FORCE\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[PRESENT_WX]\r\n[CLOSING]",
+          "template": "LFPO ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP RWY 02\r\nARR RWY02 DEP RWY07 SID 2G\r\nRSCD\r\n[ARPT_COND]\r\nRWY06 CLSD DUE TO WORKS\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\nHELICOPTER TRANSIT IS CLSD OHD TWR\r\nCROSSED RWY OPERATION IN FORCE\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[PRESENT_WX]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
