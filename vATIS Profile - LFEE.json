@@ -10533,7 +10533,7 @@
                     "name": "RWY 23 (ILS)",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "",
+                    "template": "STRASBOURG GOOD DAY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT APP ILS. RWY IN USE ^23. [ARPT_COND] [TL] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING] ",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
