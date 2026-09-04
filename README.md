@@ -1,4 +1,4 @@
-![French vACC vATIS Banner](https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/ATIS-rehaul/.github/img/vaccfr_vatis_banner.jpg)
+![French vACC vATIS Banner](https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/.github/img/vaccfr_vatis_banner.jpg)
 
 # 🇫🇷 French vACC vATIS Profiles
 
