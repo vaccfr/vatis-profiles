@@ -2,7 +2,7 @@
     "name": "LFBB Bordeaux FIR",
     "id": "47f4bce0-29f8-4f3f-ae20-a6255b861f88",
     "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFBB.json",
-    "updateSerial": 2026090401,
+    "updateSerial": 2026091601,
     "stations": [
         {
             "id": "eabc1cdf-9f3e-40ad-84c7-0241b7c5201b",
@@ -29221,7 +29221,7 @@
                     "id": "b3556667-8910-4cd3-a2ee-bd030c9c664b",
                     "ordinal": 2,
                     "name": "RWY 09 (RNP)",
-                    "airportConditions": "RUNWAY CONDITION 666 DRY.",
+                    "airportConditions": "",
                     "notams": "",
                     "template": "BONJOUR THIS IS CARCASONNE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP APP RWY09. RWY09 IN USE. [TL] [ARPT_COND] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING] ",
                     "externalGenerator": {
@@ -29238,7 +29238,7 @@
                     "id": "32d7e5bf-a058-4be9-a0fa-a63aab29d034",
                     "ordinal": 3,
                     "name": "RWY 27 (RNP)",
-                    "airportConditions": "RUNWAY CONDITION 666 DRY.",
+                    "airportConditions": "",
                     "notams": "",
                     "template": "BONJOUR THIS IS CARCASONNE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP APP RWY27. RWY27 IN USE. [TL] [ARPT_COND] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING] ",
                     "externalGenerator": {
@@ -29289,5 +29289,5 @@
             ]
         }
     ],
-    "version": 4
+    "version": 5
 }
