@@ -2,7 +2,7 @@
     "name": "LFBB Bordeaux FIR",
     "id": "47f4bce0-29f8-4f3f-ae20-a6255b861f88",
     "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFBB.json",
-    "updateSerial": 2026090401,
+    "updateSerial": 2026091601,
     "stations": [
         {
             "id": "eabc1cdf-9f3e-40ad-84c7-0241b7c5201b",
@@ -29289,5 +29289,5 @@
             ]
         }
     ],
-    "version": 4
+    "version": 5
 }
