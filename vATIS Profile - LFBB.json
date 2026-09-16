@@ -29221,7 +29221,7 @@
                     "id": "b3556667-8910-4cd3-a2ee-bd030c9c664b",
                     "ordinal": 2,
                     "name": "RWY 09 (RNP)",
-                    "airportConditions": "RUNWAY CONDITION 666 DRY.",
+                    "airportConditions": "",
                     "notams": "",
                     "template": "BONJOUR THIS IS CARCASONNE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP APP RWY09. RWY09 IN USE. [TL] [ARPT_COND] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING] ",
                     "externalGenerator": {
@@ -29238,7 +29238,7 @@
                     "id": "32d7e5bf-a058-4be9-a0fa-a63aab29d034",
                     "ordinal": 3,
                     "name": "RWY 27 (RNP)",
-                    "airportConditions": "RUNWAY CONDITION 666 DRY.",
+                    "airportConditions": "",
                     "notams": "",
                     "template": "BONJOUR THIS IS CARCASONNE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP APP RWY27. RWY27 IN USE. [TL] [ARPT_COND] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING] ",
                     "externalGenerator": {
