@@ -1,0 +1,66 @@
+name: Check Profile IDs
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**/*.json'
+      - '.github/workflows/check_profile_ids.yml'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '**/*.json'
+      - '.github/workflows/check_profile_ids.yml'
+
+jobs:
+  check_profile_ids:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check profile IDs are unchanged
+        shell: bash
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "$BASE_SHA" ] || [ "$BASE_SHA" = "0000000000000000000000000000000000000000" ]; then
+            echo "No base commit to compare against, skipping."
+            exit 0
+          fi
+
+          if ! git cat-file -e "$BASE_SHA^{commit}" 2>/dev/null; then
+            git fetch --no-tags origin "$BASE_SHA"
+          fi
+
+          failed=0
+
+          # Compare the top-level "id" of every modified or renamed profile with its previous value
+          while IFS= read -r -d '' status; do
+            IFS= read -r -d '' old_path
+            new_path="$old_path"
+            if [[ "$status" == R* ]]; then
+              IFS= read -r -d '' new_path
+            fi
+
+            old_id=$(git show "$BASE_SHA:$old_path" | jq -r '.id? // empty' 2>/dev/null) || continue
+            if [ -z "$old_id" ]; then
+              continue
+            fi
+
+            new_id=$(jq -r '.id? // empty' "$new_path")
+            if [ "$old_id" != "$new_id" ]; then
+              echo "::error file=$new_path::Profile ID changed from '$old_id' to '${new_id:-<missing>}'. Profile IDs must never change."
+              failed=1
+            else
+              echo "$new_path: ID unchanged ($old_id)"
+            fi
+          done < <(git diff -z --name-status -M --diff-filter=MR "$BASE_SHA" HEAD -- '*.json')
+
+          exit $failed
