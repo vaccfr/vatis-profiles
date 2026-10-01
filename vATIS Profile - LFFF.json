@@ -10503,7 +10503,7 @@
           "name": "DEP RWY 09 | ARR RWY 07 (EL / ILS)",
           "airportConditions": "",
           "notams": "",
-          "template": "LFPB ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT ILS 07, OTHER PROC ON REQ TO APP.\r\nARR RWY 07 DEP RWY09 SID 6J\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[PRESENT_WX]\r\n[CLOSING]",
+          "template": "LFPB ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT ILS 07, OTHER PROC ON REQ TO APP.\r\nARR RWY 07 DEP RWY09 SID 7J\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[PRESENT_WX]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
