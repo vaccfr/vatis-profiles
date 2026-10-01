@@ -1,6 +1,6 @@
 {
   "name": "LFRR Brest FIR",
-  "id": "e9beb952-68c4-4830-aeed-f7411990e1c2",
+  "id": "24c5396b-9c84-412d-be27-114e85bc1d5c",
   "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFRR.json",
   "updateSerial": 2026100101,
   "stations": [
@@ -14606,5 +14606,5 @@
       ]
     }
   ],
-  "version": 4
+  "version": 6
 }
