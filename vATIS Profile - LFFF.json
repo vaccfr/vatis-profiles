@@ -2,7 +2,7 @@
   "name": "LFFF Paris FIR",
   "id": "bdb866da-aa58-47df-9bf2-f87187f149cb",
   "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFFF.json",
-  "updateSerial": 2026090401,
+  "updateSerial": 2026100101,
   "stations": [
     {
       "id": "a0fbb0d0-d535-4c55-a6e8-92340ec0a204",
@@ -23957,5 +23957,5 @@
       ]
     }
   ],
-  "version": 4
+  "version": 5
 }
