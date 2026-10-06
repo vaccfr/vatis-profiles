@@ -2,7 +2,7 @@
     "name": "LFBB Bordeaux FIR",
     "id": "47f4bce0-29f8-4f3f-ae20-a6255b861f88",
     "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFBB.json",
-    "updateSerial": 2026091601,
+    "updateSerial": 2026100601,
     "stations": [
         {
             "id": "eabc1cdf-9f3e-40ad-84c7-0241b7c5201b",
@@ -14791,7 +14791,7 @@
                 },
                 {
                     "variableName": "CDM_ACTIVE",
-                    "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATISM.FR.",
+                    "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATSIM.FR.",
                     "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
                 },
                 {
@@ -27277,7 +27277,7 @@
             "id": "39282321-1bd6-4447-97eb-b276325b7d76",
             "ordinal": 0,
             "identifier": "LFMK",
-            "name": "Carcasonne",
+            "name": "Carcassonne",
             "atisType": "Combined",
             "codeRange": {
                 "low": "A",
@@ -29223,7 +29223,7 @@
                     "name": "RWY 09 (RNP)",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "BONJOUR THIS IS CARCASONNE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP APP RWY09. RWY09 IN USE. [TL] [ARPT_COND] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING] ",
+                    "template": "BONJOUR THIS IS CARCASSONNE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP APP RWY09. RWY09 IN USE. [TL] [ARPT_COND] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING] ",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -29240,7 +29240,7 @@
                     "name": "RWY 27 (RNP)",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "BONJOUR THIS IS CARCASONNE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP APP RWY27. RWY27 IN USE. [TL] [ARPT_COND] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING] ",
+                    "template": "BONJOUR THIS IS CARCASSONNE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP APP RWY27. RWY27 IN USE. [TL] [ARPT_COND] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING] ",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",

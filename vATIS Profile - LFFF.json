@@ -2,7 +2,7 @@
   "name": "LFFF Paris FIR",
   "id": "4bceecc9-3b1c-43b6-9219-c6275031cced",
   "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFFF.json",
-  "updateSerial": 2026100101,
+  "updateSerial": 2026100601,
   "stations": [
     {
       "id": "a0fbb0d0-d535-4c55-a6e8-92340ec0a204",
@@ -12977,7 +12977,7 @@
         },
         {
           "variableName": "CDM_ACTIVE",
-          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATISM.FR.",
+          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATSIM.FR.",
           "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
         },
         {
@@ -15233,7 +15233,7 @@
         },
         {
           "variableName": "CDM_ACTIVE",
-          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATISM.FR.",
+          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATSIM.FR.",
           "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
         }
       ],
@@ -19367,7 +19367,7 @@
         },
         {
           "variableName": "CDM_ACTIVE",
-          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATISM.FR.",
+          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATSIM.FR.",
           "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
         },
         {
@@ -21658,7 +21658,7 @@
         },
         {
           "variableName": "CDM_ACTIVE",
-          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATISM.FR.",
+          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATSIM.FR.",
           "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
         },
         {
