@@ -2,7 +2,7 @@
   "name": "LFFF Paris FIR",
   "id": "4bceecc9-3b1c-43b6-9219-c6275031cced",
   "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFFF.json",
-  "updateSerial": 2026100601,
+  "updateSerial": 2026100701,
   "stations": [
     {
       "id": "a0fbb0d0-d535-4c55-a6e8-92340ec0a204",
@@ -2030,6 +2030,16 @@
           "variableName": "RWY31",
           "text": "RWY 31",
           "voice": "RUNWAY TREE ONE"
+        },
+        {
+          "variableName": "1Y",
+          "text": "1Y",
+          "voice": "ONE YANKEE"
+        },
+        {
+          "variableName": "1Z",
+          "text": "1Z",
+          "voice": "ONE ZULU"
         }
       ],
       "airportConditionDefinitions": [],
@@ -3985,7 +3995,7 @@
           "name": "RWY 12 (EL / ILS Z)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. EXPECT RADAR VECTORS ILS_Z RWY12. RWY IN USE ^12. RWY22 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 1V 1M DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. EXPECT RADAR VECTORS ILS_Z RWY12. RWY IN USE ^12. RWY22 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 2S 2M DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4017,7 +4027,7 @@
           "name": "RWY 30 (WL / ILS)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. EXPECT RADAR VECTORS ILS RWY30. RWY IN USE ^30. RWY04 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 1W 1N DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. EXPECT RADAR VECTORS ILS RWY30. RWY IN USE ^30. RWY04 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 2W 2N DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4049,7 +4059,7 @@
           "name": "RWY 12 (EL / ILS Y)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. EXPECT RADAR VECTORS ILS_Y RWY12. RWY IN USE ^12. RWY22 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 1V 1M DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. EXPECT RADAR VECTORS ILS_Y RWY12. RWY IN USE ^12. RWY22 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 2S 2M DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4066,7 +4076,7 @@
           "name": "RWY 12 (EL / RNP)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. EXPECT RADAR VECTORS RNP RWY12. RWY IN USE ^12. RWY22 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 1V 1M DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. EXPECT RADAR VECTORS RNP RWY12. RWY IN USE ^12. RWY22 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 2S 2M DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4083,7 +4093,7 @@
           "name": "RWY 12 (EL / VOR Z)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. APP VOR_Z RWY12. RWY IN USE ^12. RWY22 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 1V 1M DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. APP VOR_Z RWY12. RWY IN USE ^12. RWY22 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 2S 2M DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4100,7 +4110,7 @@
           "name": "RWY 12 (EL / VOR Y)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. APP VOR_Y RWY12. RWY IN USE ^12. RWY22 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 1V 1M DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. APP VOR_Y RWY12. RWY IN USE ^12. RWY22 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 2S 2M DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4117,7 +4127,7 @@
           "name": "RWY 12 (EL / VOR X)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. APP VOR_X RWY12. RWY IN USE ^12. RWY22 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 1V 1M DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. APP VOR_X RWY12. RWY IN USE ^12. RWY22 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 2S 2M DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4134,7 +4144,7 @@
           "name": "RWY 12 (EL / NDB)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. APP NDB RWY 12. RWY IN USE ^12. RWY 22 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 1V 1M DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. APP NDB RWY 12. RWY IN USE ^12. RWY 22 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 2S 2M DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4166,7 +4176,7 @@
           "name": "RWY 30 (WL / RNP)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. EXPECT RADAR VECTORS RNP RWY30. RWY IN USE ^30. RWY04 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 1W 1N DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. EXPECT RADAR VECTORS RNP RWY30. RWY IN USE ^30. RWY04 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 2W 2N DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4183,7 +4193,7 @@
           "name": "RWY 30 (WL / VOR Z)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. APP VOR_Z RWY30. RWY IN USE ^30. RWY04 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 1W 1N DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. APP VOR_Z RWY30. RWY IN USE ^30. RWY04 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 2W 2N DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4200,7 +4210,71 @@
           "name": "RWY 30 (WL / VOR Y)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. APP VOR_Y RWY30. RWY IN USE ^30. RWY04 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 1W 1N DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. APP VOR_Y RWY30. RWY IN USE ^30. RWY04 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 2W 2N DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "5da035ea-474e-45db-a096-8887b951d81d",
+          "ordinal": 16,
+          "name": "--- OB EAST / PG WEST ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "d843e329-4dda-42b0-8db4-09e83a901734",
+          "ordinal": 17,
+          "name": "RWY 12 (PG WEST / ILS Z)",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. EXPECT RADAR VECTORS ILS_Z RWY12. RWY IN USE ^12. RWY22 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 2V 2M DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "e99bd63f-0a59-4d2f-a9f2-f446e49f3a05",
+          "ordinal": 18,
+          "name": "--- OB WEST / PG EAST ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "c710ff57-8961-4773-9282-7d4cc2f23432",
+          "ordinal": 19,
+          "name": "RWY 30 (PG EAST / ILS)",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. EXPECT RADAR VECTORS ILS RWY30. RWY IN USE ^30. RWY04 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 2T 2N DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4272,6 +4346,36 @@
           "variableName": "LVP_ENFORCE",
           "text": "LOW VISIBILITY PROCEDURES ENFORCE.",
           "voice": "LOW VISIBILITY PROCEDURES ENFORCE"
+        },
+        {
+          "variableName": "2V",
+          "text": "2V",
+          "voice": "TWO VICTOR"
+        },
+        {
+          "variableName": "2M",
+          "text": "2M",
+          "voice": "TWO MIKE"
+        },
+        {
+          "variableName": "2W",
+          "text": "2W",
+          "voice": "TWO WHISKEY"
+        },
+        {
+          "variableName": "2N",
+          "text": "2N",
+          "voice": "TWO NOVEMBER"
+        },
+        {
+          "variableName": "2S",
+          "text": "2S",
+          "voice": "TWO SIERRA"
+        },
+        {
+          "variableName": "2T",
+          "text": "2T",
+          "voice": "TWO TANGO"
         }
       ],
       "airportConditionDefinitions": [],
@@ -6414,6 +6518,26 @@
           "variableName": "LVP_ENFORCE",
           "text": "LOW VISIBILITY PROCEDURES ENFORCE.",
           "voice": "LOW VISIBILITY PROCEDURES ENFORCE"
+        },
+        {
+          "variableName": "1E",
+          "text": "1E",
+          "voice": "ONE ECHO"
+        },
+        {
+          "variableName": "1W",
+          "text": "1W",
+          "voice": "ONE WHISKEY"
+        },
+        {
+          "variableName": "1L",
+          "text": "1L",
+          "voice": "ONE LIMA"
+        },
+        {
+          "variableName": "1R",
+          "text": "1R",
+          "voice": "ONE ROMEO"
         }
       ],
       "airportConditionDefinitions": [],
@@ -8500,6 +8624,16 @@
           "variableName": "VORDME",
           "text": "VOR/DME",
           "voice": "VOR DME"
+        },
+        {
+          "variableName": "5A",
+          "text": "5A",
+          "voice": "FIVE ALPHA"
+        },
+        {
+          "variableName": "5B",
+          "text": "5B",
+          "voice": "FIVE BRAVO"
         }
       ],
       "airportConditionDefinitions": [],
@@ -10683,24 +10817,24 @@
           "voice": "DATALINK CLEARANCE AVAILABLE LFPB"
         },
         {
-          "variableName": "6C",
-          "text": "6C",
-          "voice": "SIX CHARLIE"
+          "variableName": "7C",
+          "text": "7C",
+          "voice": "SEVEN CHARLIE"
         },
         {
-          "variableName": "6F",
-          "text": "6F",
-          "voice": "SIX FOXTROT"
+          "variableName": "7F",
+          "text": "7F",
+          "voice": "SEVEN FOXTROT"
         },
         {
-          "variableName": "6J",
-          "text": "6J",
-          "voice": "SIX JULIET"
+          "variableName": "7J",
+          "text": "7J",
+          "voice": "SEVEN JULIET"
         },
         {
-          "variableName": "6M",
-          "text": "6M",
-          "voice": "SIX MIKE"
+          "variableName": "7M",
+          "text": "7M",
+          "voice": "SEVEN MIKE"
         },
         {
           "variableName": "DEP",
@@ -12798,8 +12932,25 @@
           }
         },
         {
+          "id": "47634096-b9e6-47a9-b057-4a35f903f503",
+          "ordinal": 2,
+          "name": "DEP RWY 09R | ARR RWY 09L (EL NIGHT / ILS)",
+          "airportConditions": "",
+          "notams": "",
+          "template": "LFPG ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT 3P ILS ^09L\r\nARR RWY09L DEP RWY09R SID 7G\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA :\r\n[PRESENT_WX]\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
           "id": "01306933-9998-4066-979b-bddd7a3199b0",
-          "ordinal": 3,
+          "ordinal": 4,
           "name": "--- WL Standard Configurations ---",
           "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
           "externalGenerator": {
@@ -12814,7 +12965,7 @@
         },
         {
           "id": "46433c45-4f02-4d74-bcbd-8e9219de1f1d",
-          "ordinal": 4,
+          "ordinal": 5,
           "name": "DEP RWY 26R/27L | ARR RWY 26L/27R (WL / ILS)",
           "airportConditions": "",
           "notams": "",
@@ -12831,7 +12982,7 @@
         },
         {
           "id": "efcf2f00-f8e9-462c-bcc6-84867159eb33",
-          "ordinal": 5,
+          "ordinal": 6,
           "name": "--- IPOW Standard Configurations ---",
           "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
           "externalGenerator": {
@@ -12846,7 +12997,7 @@
         },
         {
           "id": "41817aa5-6464-4449-954f-f50002405587",
-          "ordinal": 6,
+          "ordinal": 7,
           "name": "DEP RWY 08L/09R | ARR RWY 08R/09L (IPOW / ILS)",
           "airportConditions": "",
           "notams": "",
@@ -12863,7 +13014,7 @@
         },
         {
           "id": "62fa4950-aa76-431c-9dc4-f666af4173a3",
-          "ordinal": 6,
+          "ordinal": 8,
           "name": "--- IPGW Standard Configurations ---",
           "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
           "externalGenerator": {
@@ -12878,11 +13029,28 @@
         },
         {
           "id": "892c3007-e9fd-4887-92cb-e99d1351b357",
-          "ordinal": 8,
+          "ordinal": 9,
           "name": "DEP RWY 26R/27L | ARR RWY 26L/27R (IPGW / ILS)",
           "airportConditions": "",
           "notams": "",
           "template": "LFPG ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT 1W ILS ^26L AND 1W ILS ^27R\r\nARR RWY26L AND ^27R DEP RWY26R AND ^27L SID 7D 7E\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA :\r\n[PRESENT_WX]\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "7c37cede-8030-4aad-a5fd-56f31b63651a",
+          "ordinal": 10,
+          "name": "DEP RWY 27L | ARR RWY 26L/27R (WL NIGHT / ILS)",
+          "airportConditions": "",
+          "notams": "",
+          "template": "LFPG ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT 3Y ILS ^26L AND 3Z ILS ^27R\r\nARR RWY26L AND ^27R DEP RWY27L SID 7A 7Z\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA :\r\n[PRESENT_WX]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -13021,44 +13189,44 @@
           "voice": "TREE ZULU"
         },
         {
-          "variableName": "6A",
-          "text": "6A",
-          "voice": "SIX ALPHA"
+          "variableName": "7A",
+          "text": "7A",
+          "voice": "SEVEN ALPHA"
         },
         {
-          "variableName": "6B",
-          "text": "6B",
-          "voice": "SIX BRAVO"
+          "variableName": "7B",
+          "text": "7B",
+          "voice": "SEVEN BRAVO"
         },
         {
-          "variableName": "6D",
-          "text": "6D",
-          "voice": "SIX DELTA"
+          "variableName": "7D",
+          "text": "7D",
+          "voice": "SEVEN DELTA"
         },
         {
-          "variableName": "6E",
-          "text": "6E",
-          "voice": "SIX ECHO"
+          "variableName": "7E",
+          "text": "7E",
+          "voice": "SEVEN ECHO"
         },
         {
-          "variableName": "6G",
-          "text": "6G",
-          "voice": "SIX GULF"
+          "variableName": "7G",
+          "text": "7G",
+          "voice": "SEVEN GULF"
         },
         {
-          "variableName": "6H",
-          "text": "6H",
-          "voice": "SIX HOTEL"
+          "variableName": "7H",
+          "text": "7H",
+          "voice": "SEVEN HOTEL"
         },
         {
-          "variableName": "6K",
-          "text": "6K",
-          "voice": "SIX KILO"
+          "variableName": "7K",
+          "text": "7K",
+          "voice": "SEVEN KILO"
         },
         {
-          "variableName": "6L",
-          "text": "6L",
-          "voice": "SIX LIMA"
+          "variableName": "7L",
+          "text": "7L",
+          "voice": "SEVEN LIMA"
         },
         {
           "variableName": "APCH",
@@ -13094,6 +13262,16 @@
           "variableName": "SID",
           "text": "SID",
           "voice": "ESS AYE DEE"
+        },
+        {
+          "variableName": "CDM_ACTIVE_ROGER",
+          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT VATS.IM/VDGS.",
+          "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT VATS DOT IM SLASH VEE DEE JEE ESS"
+        },
+        {
+          "variableName": "3Q",
+          "text": "3Q",
+          "voice": "TREE QUEBEC"
         }
       ],
       "airportConditionDefinitions": [
@@ -13135,18 +13313,23 @@
           "enabled": false
         },
         {
-          "text": "ARRIVALS VIA LORNI AND\r\nOKIPA EXPECT 1X APCH",
-          "ordinal": 4,
+          "text": "CDM_ACTIVE_ROGER",
+          "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "ARRIVALS VIA LORNI AND\r\nOKIPA EXPECT 1X 1R APCH",
+          "text": "ARRIVALS VIA LORNI AND\r\nOKIPA EXPECT 1X APCH",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "ARRIVALS VIA MOPAR AND\r\nBANOX EXPECT 1X APCH",
+          "text": "ARRIVALS VIA LORNI AND\r\nOKIPA EXPECT 1X 1R APCH",
           "ordinal": 6,
+          "enabled": false
+        },
+        {
+          "text": "ARRIVALS VIA MOPAR AND\r\nBANOX EXPECT 1X APCH",
+          "ordinal": 7,
           "enabled": false
         }
       ]
@@ -17276,6 +17459,16 @@
           "variableName": "VORDME",
           "text": "VOR/DME",
           "voice": "VOR DME"
+        },
+        {
+          "variableName": "5C",
+          "text": "5C",
+          "voice": "FIVE CHARLIE"
+        },
+        {
+          "variableName": "5E",
+          "text": "5E",
+          "voice": "FIVE ECHO"
         }
       ],
       "airportConditionDefinitions": [],
@@ -21715,6 +21908,16 @@
           "variableName": "SID",
           "text": "SID",
           "voice": "ESS AYE DEE"
+        },
+        {
+          "variableName": "2A",
+          "text": "2A",
+          "voice": "TWO ALPHA"
+        },
+        {
+          "variableName": "2B",
+          "text": "2B",
+          "voice": "TWO BRAVO"
         }
       ],
       "airportConditionDefinitions": [
@@ -23945,6 +24148,41 @@
           "variableName": "6R",
           "text": "6R",
           "voice": "SIX ROMEO"
+        },
+        {
+          "variableName": "6E",
+          "text": "6E",
+          "voice": "SIX ECHO"
+        },
+        {
+          "variableName": "6S",
+          "text": "6S",
+          "voice": "SIX SIERRA"
+        },
+        {
+          "variableName": "6T",
+          "text": "6T",
+          "voice": "SIX TANGO"
+        },
+        {
+          "variableName": "6X",
+          "text": "6X",
+          "voice": "SIX X-RAY"
+        },
+        {
+          "variableName": "6Y",
+          "text": "6Y",
+          "voice": "SIX YANKEE"
+        },
+        {
+          "variableName": "6Z",
+          "text": "6Z",
+          "voice": "SIX ZULU"
+        },
+        {
+          "variableName": "6W",
+          "text": "6W",
+          "voice": "SIX WHISKEY"
         }
       ],
       "airportConditionDefinitions": [],
