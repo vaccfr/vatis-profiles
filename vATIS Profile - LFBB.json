@@ -2,7 +2,7 @@
     "name": "LFBB Bordeaux FIR",
     "id": "47f4bce0-29f8-4f3f-ae20-a6255b861f88",
     "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFBB.json",
-    "updateSerial": 2026100601,
+    "updateSerial": 2026102901,
     "stations": [
         {
             "id": "eabc1cdf-9f3e-40ad-84c7-0241b7c5201b",
@@ -14791,8 +14791,8 @@
                 },
                 {
                     "variableName": "CDM_ACTIVE",
-                    "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATSIM.FR.",
-                    "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
+                    "text": "CDM OPERATIONS ACTIVE. SUBMIT YOUR TOBT AT VATS.IM/VDGS",
+                    "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT VATS DOT I M SLASH V D G S"
                 },
                 {
                     "variableName": "7A",

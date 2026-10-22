@@ -2,7 +2,7 @@
     "name": "LFMM Marseille FIR",
     "id": "27a3fc6a-2083-470a-ba63-fd0567b18fd2",
     "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFMM.json",
-    "updateSerial": 2026101801,
+    "updateSerial": 2026102901,
     "stations": [
         {
             "id": "17465142-82ef-43c1-a170-2849747b4927",
@@ -18673,8 +18673,8 @@
                 },
                 {
                     "variableName": "CDM_ACTIVE",
-                    "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATSIM.FR",
-                    "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR."
+                    "text": "CDM OPERATIONS ACTIVE. SUBMIT YOUR TOBT AT VATS.IM/VDGS",
+                    "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT VATS DOT I M SLASH V D G S"
                 },
                 {
                     "variableName": "3S",
@@ -32977,8 +32977,8 @@
                 },
                 {
                     "variableName": "CDM_ACTIVE",
-                    "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATSIM.FR.",
-                    "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
+                    "text": "CDM OPERATIONS ACTIVE. SUBMIT YOUR TOBT AT VATS.IM/VDGS",
+                    "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT VATS DOT I M SLASH V D G S"
                 }
             ],
             "airportConditionDefinitions": [],
@@ -35226,8 +35226,8 @@
                 },
                 {
                     "variableName": "CDM_ACTIVE",
-                    "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATSIM.FR",
-                    "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
+                    "text": "CDM OPERATIONS ACTIVE. SUBMIT YOUR TOBT AT VATS.IM/VDGS",
+                    "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT VATS DOT I M SLASH V D G S"
                 },
                 {
                     "variableName": "OPS",
