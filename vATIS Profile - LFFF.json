@@ -2,7 +2,7 @@
   "name": "LFFF Paris FIR",
   "id": "4bceecc9-3b1c-43b6-9219-c6275031cced",
   "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFFF.json",
-  "updateSerial": 2026100701,
+  "updateSerial": 2026102901,
   "stations": [
     {
       "id": "a0fbb0d0-d535-4c55-a6e8-92340ec0a204",
@@ -13145,8 +13145,8 @@
         },
         {
           "variableName": "CDM_ACTIVE",
-          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATSIM.FR.",
-          "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
+          "text": "CDM OPERATIONS ACTIVE. SUBMIT YOUR TOBT AT VATS.IM/VDGS",
+          "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT VATS DOT I M SLASH V D G S"
         },
         {
           "variableName": "1E",
@@ -13264,7 +13264,7 @@
           "voice": "ESS AYE DEE"
         },
         {
-          "variableName": "CDM_ACTIVE_ROGER",
+          "variableName": "CDM_ACTIVE",
           "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT VATS.IM/VDGS.",
           "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT VATS DOT IM SLASH VEE DEE JEE ESS"
         },
@@ -13313,23 +13313,18 @@
           "enabled": false
         },
         {
-          "text": "CDM_ACTIVE_ROGER",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
           "text": "ARRIVALS VIA LORNI AND\r\nOKIPA EXPECT 1X APCH",
-          "ordinal": 5,
+          "ordinal": 4,
           "enabled": false
         },
         {
           "text": "ARRIVALS VIA LORNI AND\r\nOKIPA EXPECT 1X 1R APCH",
-          "ordinal": 6,
+          "ordinal": 5,
           "enabled": false
         },
         {
           "text": "ARRIVALS VIA MOPAR AND\r\nBANOX EXPECT 1X APCH",
-          "ordinal": 7,
+          "ordinal": 5,
           "enabled": false
         }
       ]
@@ -15416,8 +15411,8 @@
         },
         {
           "variableName": "CDM_ACTIVE",
-          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATSIM.FR.",
-          "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
+          "text": "CDM OPERATIONS ACTIVE. SUBMIT YOUR TOBT AT VATS.IM/VDGS",
+          "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT VATS DOT I M SLASH V D G S"
         }
       ],
       "airportConditionDefinitions": [],
@@ -19560,8 +19555,8 @@
         },
         {
           "variableName": "CDM_ACTIVE",
-          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATSIM.FR.",
-          "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
+          "text": "CDM OPERATIONS ACTIVE. SUBMIT YOUR TOBT AT VATS.IM/VDGS",
+          "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT VATS DOT I M SLASH V D G S"
         },
         {
           "variableName": "SID",
@@ -21851,8 +21846,8 @@
         },
         {
           "variableName": "CDM_ACTIVE",
-          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATSIM.FR.",
-          "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
+          "text": "CDM OPERATIONS ACTIVE. SUBMIT YOUR TOBT AT VATS.IM/VDGS",
+          "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT VATS DOT I M SLASH V D G S"
         },
         {
           "variableName": "2E",
@@ -24195,5 +24190,5 @@
       ]
     }
   ],
-  "version": 6
+  "version": 7
 }
