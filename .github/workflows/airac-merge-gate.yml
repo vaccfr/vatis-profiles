@@ -1,0 +1,48 @@
+name: AIRAC merge gate
+
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize, edited, labeled, unlabeled, ready_for_review]
+  push:
+    paths:
+      - .github/airac-config.json
+      - .github/airac-cycles.yml
+      - .github/scripts/airac.cjs
+      - .github/workflows/airac-merge-gate.yml
+  schedule:
+    - cron: "7,22,37,52 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  # AIRAC comments target pull requests through the issues API.
+  pull-requests: write
+  issues: write
+  statuses: write
+
+# Serialize scheduled and PR runs; each run fetches current PR labels and SHA.
+concurrency:
+  group: airac-merge-gate
+  cancel-in-progress: false
+
+jobs:
+  evaluate:
+    if: >-
+      github.event_name != 'push' || github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    name: Evaluate AIRAC eligibility
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # Never execute code from a PR in this privileged workflow.
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+          sparse-checkout: .github
+
+      - name: Evaluate AIRAC effective dates
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const { evaluate } = require('./.github/scripts/airac.cjs');
+            await evaluate({ github, context, core });

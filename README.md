@@ -6,6 +6,8 @@ Welcome to the official repository for the **French vACC vATIS Profiles** used o
 
 This repository supports the **distribution, maintenance, and automatic updating** of the vATIS profiles used across French vACC airports. The profiles are configured to provide controllers with a consistent and up-to-date vATIS setup.
 
+For profile changes and AIRAC-dependent pull requests, see [Contributing and AIRAC changes](CONTRIBUTING-AIRAC.md).
+
 ---
 
 > ⚠️ **Compatibility Notice**

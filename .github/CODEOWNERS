@@ -1,0 +1,3 @@
+# Default reviewers for French vACC vATIS profiles and automation.
+# Owners require explicit Write access; teams must be visible.
+* @vaccfr/navigation

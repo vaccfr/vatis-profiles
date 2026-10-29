@@ -1,0 +1,28 @@
+name: AIRAC automation tests
+on:
+  pull_request:
+    paths:
+      - .github/airac-config.json
+      - .github/airac-cycles.yml
+      - .github/scripts/airac.cjs
+      - .github/scripts/airac.test.cjs
+      - .github/workflows/airac-automation-tests.yml
+      - .github/workflows/airac-merge-gate.yml
+      - .github/workflows/sync-airac-labels.yml
+      - .github/workflows/tag-airac.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    name: Test AIRAC automation
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - run: node --test .github/scripts/airac.test.cjs
