@@ -1968,7 +1968,7 @@
         {
           "id": "d5ff9a49-86c3-4746-bc6b-abf5dc78fbf4",
           "ordinal": 3,
-          "name": "RWY 36 (ILS)",
+          "name": "RWY 31 (ILS)",
           "airportConditions": "",
           "template": "BONJOUR THIS IS RODEZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS RWY31. RUNWAY IN USE ^31. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] IN CASE OF METEOROLOGICAL EVOLUTIONS THIS WILL BE GIVEN ON THE FREQUENCY. [NOTAMS] [CLOSING]",
           "externalGenerator": {
@@ -1999,7 +1999,7 @@
         {
           "id": "e526019b-5c98-4f12-936c-8d1342e00962",
           "ordinal": 5,
-          "name": "RWY 36 (RNP)",
+          "name": "RWY 31 (RNP)",
           "airportConditions": "",
           "template": "BONJOUR THIS IS RODEZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP RWY31. RUNWAY IN USE ^31. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] IN CASE OF METEOROLOGICAL EVOLUTIONS THIS WILL BE GIVEN ON THE FREQUENCY. [NOTAMS] [CLOSING]",
           "externalGenerator": {
