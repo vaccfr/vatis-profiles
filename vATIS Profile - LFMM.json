@@ -2,7 +2,7 @@
   "name": "LFMM Marseille FIR",
   "id": "27a3fc6a-2083-470a-ba63-fd0567b18fd2",
   "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFMM.json",
-  "updateSerial": 2026102901,
+  "updateSerial": 2026110511,
   "stations": [
     {
       "id": "17465142-82ef-43c1-a170-2849747b4927",
@@ -32802,22 +32802,7 @@
           "id": "5226a036-eceb-43b0-808f-68897a5f9ea8",
           "name": "RWY 13L (ILS Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Z RWY13L. TAKE OFF RWY13L. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "a11a7e96-10fe-4788-aff5-f24d318dd682",
-          "name": "RWY 13L (ILS Y)",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Y RWY13L. TAKE OFF RWY13L. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Z RWY13L. TAKE OFF RWY13L. TRANSITION 1V. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -32832,7 +32817,7 @@
           "id": "a0f53d51-3d81-4549-b4d3-8044c90f1186",
           "name": "RWY 13L (RNP Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Z RWY13L. TAKE OFF RWY13L. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Z RWY13L. TAKE OFF RWY13L. TRANSITION 1V. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -32847,7 +32832,7 @@
           "id": "36367f3f-7c29-4276-a8ab-beadf1063066",
           "name": "RWY 31R (ILS Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Z RWY31R. TAKE OFF RWY31R. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Z RWY31R. TAKE OFF RWY31R. TRANSITION 1M. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -32862,7 +32847,7 @@
           "id": "26d079e2-5d79-4c91-a4e8-b252f226006e",
           "name": "RWY 31R (RNP Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Z RWY31R. RNP_X ON REQUEST. TAKE OFF RWY31R. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Z RWY31R. RNP_X ON REQUEST. TAKE OFF RWY31R. TRANSITION 1M. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -32877,7 +32862,7 @@
           "id": "395c8756-0bb6-42ec-a8dc-f7d965b1bd35",
           "name": "RWY 31R (RNP Y)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Y RWY31R. RNP_X ON REQUEST. TAKE OFF RWY31R. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Y RWY31R. RNP_X ON REQUEST. TAKE OFF RWY31R. TRANSITION 1M. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -32892,7 +32877,7 @@
           "id": "8c9e3f2d-9786-4d0b-878a-71e6bc1e4c3a",
           "name": "DEP RWY 31R | ARR RWY 13L (ILS Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Z RWY13L. TAKE OFF RWY31R. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Z RWY13L. TAKE OFF RWY31R. TRANSITION 1V. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -32907,7 +32892,7 @@
           "id": "440224c8-b4ad-4d34-bee0-77127bd154a3",
           "name": "DEP RWY 31R | ARR RWY 13L (RNP Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Z RWY13L. TAKE OFF RWY31R. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Z RWY13L. TAKE OFF RWY31R. TRANSITION 1V. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -32961,11 +32946,6 @@
           "voice": "RNP ZULU"
         },
         {
-          "variableName": "ILS_Y",
-          "text": "ILS Y",
-          "voice": "ILS YANKEE"
-        },
-        {
           "variableName": "ILS_Z",
           "text": "ILS Z",
           "voice": "ILS ZULU"
@@ -32989,6 +32969,21 @@
           "variableName": "CDM_ACTIVE",
           "text": "CDM OPERATIONS ACTIVE. SUBMIT YOUR TOBT AT VATS.IM/VDGS",
           "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT VATS DOT I M SLASH V D G S"
+		},
+        {
+          "variableName": "1V",
+          "text": "1V",
+          "voice": "ONE VICTOR"
+        },
+        {
+          "variableName": "1M",
+          "text": "1M",
+          "voice": "ONE MIKE"
+        },
+        {
+          "variableName": "1T",
+          "text": "1T",
+          "voice": "ONE TANGO"		  			  
         }
       ],
       "airportConditionDefinitions": [],
