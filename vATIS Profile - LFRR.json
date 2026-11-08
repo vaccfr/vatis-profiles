@@ -2,7 +2,7 @@
   "name": "LFRR Brest FIR",
   "id": "24c5396b-9c84-412d-be27-114e85bc1d5c",
   "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFRR.json",
-  "updateSerial": 2026110601,
+  "updateSerial": 2026110801,
   "stations": [
     {
       "id": "fd208bae-9fc9-413b-9e1c-0dd27dfd8d22",
@@ -2333,6 +2333,40 @@
           "airportConditions": "",
           "notams": "",
           "template": "BONJOUR THIS IS DINARD INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP VOR RWY35. RWY35 IN USE. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "47e4d463-ff55-40d0-9168-c685c75895d0",
+          "ordinal": 7,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "049146cb-dd1e-4121-9c2b-67acb84f7235",
+          "ordinal": 8,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS DINARD INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4721,6 +4755,40 @@
           "airportConditions": "",
           "notams": "",
           "template": "BONJOUR THIS IS DEAUVILLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP VOR RWY30. RWY30 IN USE. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "4cebc122-872d-4168-a5f9-3cf135cd439a",
+          "ordinal": 8,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "61267486-a9b3-45f5-8803-1bb5d2c1419b",
+          "ordinal": 9,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS DEAUVILLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -7167,6 +7235,40 @@
             "approaches": "",
             "remarks": ""
           }
+        },
+        {
+          "id": "de0c6b09-6374-43fc-8b77-b8e655ee3555",
+          "ordinal": 10,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "d19b0035-615a-45c6-8405-3d57df3e6321",
+          "ordinal": 11,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS LORIENT INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
         }
       ],
       "contractions": [
@@ -9553,6 +9655,40 @@
             "approaches": "",
             "remarks": ""
           }
+        },
+        {
+          "id": "d7344e91-ec6a-4526-b178-d2ded78372d6",
+          "ordinal": 7,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "e5c8c0a5-6dfe-499e-ad8b-8afa996afa40",
+          "ordinal": 8,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS CAEN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
         }
       ],
       "contractions": [
@@ -11927,6 +12063,40 @@
           "airportConditions": "",
           "notams": "",
           "template": "BONJOUR THIS IS RENNES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. TYPE OF APPROACH VOR RWY28. RWY28 AND RWY32 IN USE. STANDARD DEPARTURE 5V, 5W. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "f3721f63-1240-4f07-a42a-42da5bfe8796",
+          "ordinal": 8,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "effc9747-1cac-43a3-a9b4-878f01b9ead7",
+          "ordinal": 9,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS RENNES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14332,6 +14502,40 @@
           "airportConditions": "",
           "notams": "",
           "template": "BONJOUR THIS IS NANTES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT VORDME RWY21. RWY21 IN USE. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "6d9530aa-b07f-4714-b642-5a0f7f64da65",
+          "ordinal": 9,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "c4165551-d0d0-4b3b-b8cc-0dbb3270e27e",
+          "ordinal": 10,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS NANTES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16768,6 +16972,40 @@
           "airportConditions": "",
           "notams": "",
           "template": "BONJOUR THIS IS BREST INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP NDB RWY25L. RWY25L IN USE. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "92382a23-d725-4f12-a588-978c6fc60951",
+          "ordinal": 9,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "8c3b8c5d-731f-40c9-917d-c67401723590",
+          "ordinal": 10,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS BREST INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",

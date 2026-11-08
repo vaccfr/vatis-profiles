@@ -41,6 +41,31 @@ A practical guide covering the installation and use of vATIS is available in the
 
 ---
 
+## ✍️ Manual ATIS
+
+Every station has a **Manual** configuration, for an operation none of its presets describes: a closed runway, a non-standard split, an approach the profile does not list. You write the runways in use yourself, and the weather, transition level, NOTAMs and closing are added as usual.
+
+**In CoStarter (integrated ATIS):**
+
+1. In the ATIS tab, open the station and choose **Custom…** at the end of the runway configuration list.
+2. Edit the **Runways in use** box. It starts from the configuration you were on.
+3. Press **Connect**, or **Apply** if the ATIS is already on air. An ATIS with no runway text is refused.
+
+New text goes on air about five seconds after **Apply**.
+
+**In vATIS on its own:**
+
+1. Select **Manual**, under `--- Custom ---`, in the preset list.
+2. Write the runways in use in the **Airport Conditions** box, followed by any conditions. vATIS does not check this box, so never connect with it empty.
+
+**Writing the text:**
+
+- Say which runways are used for what with `ARR` and `DEP`, for example `EXPECT ILS ^09L ARR RWY 09L DEP RWY 09R`. CoStarter reads those two words to find the runways in use at the airport.
+- Put `^` before a runway you want read out as a runway, as in `^09L`.
+- Typing `@` in CoStarter lists the station's contractions, as in `@RWY09L`.
+
+---
+
 ## 🗺️ Supported Airports
 
 ### 🟦 LFBB — Bordeaux FIR
