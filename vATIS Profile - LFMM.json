@@ -2,7 +2,7 @@
   "name": "LFMM Marseille FIR",
   "id": "27a3fc6a-2083-470a-ba63-fd0567b18fd2",
   "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFMM.json",
-  "updateSerial": 2026110511,
+  "updateSerial": 2026110801,
   "stations": [
     {
       "id": "17465142-82ef-43c1-a170-2849747b4927",
@@ -2002,6 +2002,40 @@
           "name": "RWY 31 (RNP)",
           "airportConditions": "",
           "template": "BONJOUR THIS IS RODEZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP RWY31. RUNWAY IN USE ^31. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] IN CASE OF METEOROLOGICAL EVOLUTIONS THIS WILL BE GIVEN ON THE FREQUENCY. [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "cb320e38-d786-4a86-a67e-dc0b360a9582",
+          "ordinal": 6,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "ec1621a2-6fd7-4917-b4c2-d10966e2c293",
+          "ordinal": 7,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS RODEZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] IN CASE OF METEOROLOGICAL EVOLUTIONS THIS WILL BE GIVEN ON THE FREQUENCY. [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4104,6 +4138,40 @@
             "approaches": "",
             "remarks": ""
           }
+        },
+        {
+          "id": "e7378b6c-e342-42f1-a43b-96a59b36b1ba",
+          "ordinal": 10,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "8055ab21-62f0-4ef8-af56-624dec29c28b",
+          "ordinal": 11,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS BASTIA INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
         }
       ],
       "contractions": [
@@ -6165,6 +6233,40 @@
           "name": "RWY 18 (RNP Y)",
           "airportConditions": "",
           "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE RNP_Y RWY18. [ARPT_COND]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "a4a3d82e-9063-427b-b7e8-57254c0abd90",
+          "ordinal": 7,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "da18ae7c-54da-4673-a56b-06f497e5b25c",
+          "ordinal": 8,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8272,6 +8374,40 @@
             "approaches": "",
             "remarks": ""
           }
+        },
+        {
+          "id": "3ed3ea31-4ec9-48e2-87a9-87193a33062e",
+          "ordinal": 8,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "64cf479d-7097-4687-8835-7c3d82c47546",
+          "ordinal": 9,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS FIGARI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
         }
       ],
       "contractions": [
@@ -10359,6 +10495,40 @@
             "approaches": "",
             "remarks": ""
           }
+        },
+        {
+          "id": "b9e0f1a7-0814-4f73-ab8b-2eb1f58131df",
+          "ordinal": 9,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "d277a2f9-1550-4fd0-b930-a26afdc0f6c1",
+          "ordinal": 10,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS AJACCIO INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
         }
       ],
       "contractions": [
@@ -12425,6 +12595,40 @@
           "name": "RWY 18 (RNP Z)",
           "airportConditions": "",
           "template": "BONJOUR THIS IS CHAMBERY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP_Z RWY18 OR OWN ATC CLEARANCE. [TL] GRASS RUNWAY RESERVED FOR HELICOPTERS WITHOUT TOUCHING THE GROUND. TMA ECHO AIRSPACE. BIRD HAZARD LOW. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "62362d2f-1985-40fd-a7ad-0bb03cc1678f",
+          "ordinal": 7,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "4173efbe-ae3f-42b0-bd01-7bf51a0f681b",
+          "ordinal": 8,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS CHAMBERY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] GRASS RUNWAY RESERVED FOR HELICOPTERS WITHOUT TOUCHING THE GROUND. TMA ECHO AIRSPACE. BIRD HAZARD LOW. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14515,6 +14719,40 @@
             "approaches": "",
             "remarks": ""
           }
+        },
+        {
+          "id": "46451cab-e75b-4458-8311-22da8ee4133d",
+          "ordinal": 8,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "da13ad1b-4431-407b-ac10-8a5d91e84c5d",
+          "ordinal": 9,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS CLERMONT FERRAND INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
         }
       ],
       "contractions": [
@@ -16525,6 +16763,40 @@
           "name": "RWY 22",
           "airportConditions": "",
           "template": "BONJOUR THIS IS LE VERSOUD INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RUNWAY IN USE ^22. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "39b016a4-88ac-429e-95aa-a8639972c872",
+          "ordinal": 4,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "837e7d45-edb8-4fe8-9ba0-ce0f9d921412",
+          "ordinal": 5,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS LE VERSOUD INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18649,6 +18921,40 @@
           "name": "RWY DEP 35L | ARR 35R (VOR)",
           "airportConditions": "",
           "template": "LFLL ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT TRANSITION 3N\r\nVOR RWY35R\r\nARR RWY35R DEP RWY35L\r\nSID 8N\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\nBIRD STRIKE RISK UNKNOWN\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "ceb7ec57-5f22-47bb-98ba-cde49a1d1e12",
+          "ordinal": 9,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "146fee33-9814-4991-8b07-912e274103d3",
+          "ordinal": 10,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "LFLL ATIS [ATIS_CODE]\r\n[TIME]\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\nBIRD STRIKE RISK UNKNOWN\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -20821,6 +21127,40 @@
             "approaches": "",
             "remarks": ""
           }
+        },
+        {
+          "id": "e88e6201-6cc7-4d24-b358-e2f80f003ded",
+          "ordinal": 1,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "fdd070cd-5de6-4a66-9741-fa7978e58466",
+          "ordinal": 2,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
         }
       ],
       "contractions": [
@@ -22862,6 +23202,40 @@
             "approaches": "",
             "remarks": ""
           }
+        },
+        {
+          "id": "1dd618eb-f53b-4de8-a2c7-3dc0620317b2",
+          "ordinal": 1,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "0068bae3-b464-460b-9842-8bbdb3f80698",
+          "ordinal": 2,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS GRENOBLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
         }
       ],
       "contractions": [
@@ -24843,6 +25217,40 @@
             "approaches": "",
             "remarks": ""
           }
+        },
+        {
+          "id": "b78246cc-3858-4981-be0f-9ede1fe8f57c",
+          "ordinal": 1,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "f5069622-ac17-4017-bc16-683ef9e13206",
+          "ordinal": 2,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS LYON BRON INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
         }
       ],
       "contractions": [
@@ -26815,6 +27223,40 @@
           "name": "RWY 32",
           "airportConditions": "",
           "template": "BONJOUR THIS IS AIX INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^32. IFR PROCEDURE IN USE VISUAL APPROACH RWY32. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "90a81337-ff42-49e5-b617-187431ed7911",
+          "ordinal": 1,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "b01920d7-f0e2-4a2f-8d62-af50a479d81e",
+          "ordinal": 2,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS AIX INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -28835,6 +29277,40 @@
             "approaches": "",
             "remarks": ""
           }
+        },
+        {
+          "id": "95dc6480-cf14-499a-9b2e-4b4a1bc9710c",
+          "ordinal": 1,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "ea35def5-6507-4b90-859a-c85e08dff6d0",
+          "ordinal": 2,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS CANNES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
         }
       ],
       "contractions": [
@@ -30837,6 +31313,40 @@
           "name": "RWY 35",
           "airportConditions": "",
           "template": "BONJOUR THIS IS SAINT ETIENNE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY35 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "65fc9200-47a4-4402-8861-dbbc620fbb9b",
+          "ordinal": 1,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "724b2456-fba8-4036-bddf-e1edd904145f",
+          "ordinal": 2,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS SAINT ETIENNE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -32893,6 +33403,40 @@
           "name": "DEP RWY 31R | ARR RWY 13L (RNP Z)",
           "airportConditions": "",
           "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Z RWY13L. TAKE OFF RWY31R. TRANSITION 1V. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "c06c8238-c5b2-4130-977c-4dfca8943bec",
+          "ordinal": 1,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "05767842-5a83-401b-9a2b-576b25fb4b0f",
+          "ordinal": 2,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -35087,6 +35631,40 @@
           "airportConditions": "",
           "notams": "",
           "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP_Z\r\nRWY 22R\r\nARR RWY22R DEP RWY22L\r\nSID 8X, 8Y\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nH1 G1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "af3407b1-3a07-416d-9089-9158b66c5004",
+          "ordinal": 10,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "dfe1cb07-6932-439b-acbd-de4b3a0f2ddf",
+          "ordinal": 11,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\n[ARPT_COND]\r\n[TL]\r\nOPS INFOS\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nA1 B1 C1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -37294,6 +37872,40 @@
             "approaches": "",
             "remarks": ""
           }
+        },
+        {
+          "id": "11a5fa0e-ade5-4c52-9545-58d773090e4e",
+          "ordinal": 1,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "d02a25cd-397b-439a-afdc-6c62591a3849",
+          "ordinal": 2,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS PERPIGNAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
         }
       ],
       "contractions": [
@@ -39360,6 +39972,40 @@
             "approaches": "",
             "remarks": ""
           }
+        },
+        {
+          "id": "f46753c7-7d23-4ad8-bd5d-c329a6f3033e",
+          "ordinal": 1,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "b052bf9a-340f-4720-af5c-4403843a0091",
+          "ordinal": 2,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS MONTPELLIER INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
         }
       ],
       "contractions": [
@@ -41406,6 +42052,40 @@
             "approaches": "",
             "remarks": ""
           }
+        },
+        {
+          "id": "92ec2e56-9f8d-4a6f-a9d9-ae1754e5524c",
+          "ordinal": 1,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "333d2eb6-6b22-4a98-9ddf-079f36677e3c",
+          "ordinal": 2,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS BEZIERS INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
         }
       ],
       "contractions": [
@@ -43417,6 +44097,40 @@
             "approaches": "",
             "remarks": ""
           }
+        },
+        {
+          "id": "f4bfadc9-ceaa-45df-98f7-e288ac077f9d",
+          "ordinal": 1,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "a67b1422-ce12-47c3-b6cb-f873e6422b89",
+          "ordinal": 2,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS AVIGNON INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
         }
       ],
       "contractions": [
@@ -45419,6 +46133,40 @@
           "name": "RWY 05 (RNP)",
           "airportConditions": "",
           "template": "BONJOUR THIS IS HYERES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP RWY05. RWY05 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "d1bb35e6-ead2-44b5-885b-b7f34704e37d",
+          "ordinal": 1,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "d110c34d-c93b-4851-a85c-79d4ebf13ac5",
+          "ordinal": 2,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS HYERES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -47487,6 +48235,40 @@
           "name": "RWY 36 (NDB)",
           "airportConditions": "",
           "template": "BONJOUR THIS IS NIMES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. NDB RWY36. RWY36 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "95dfcba2-9505-48ed-beec-b67abdbb27b5",
+          "ordinal": 1,
+          "name": "--- Custom ---",
+          "airportConditions": "",
+          "notams": "",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "4fb44180-937d-4640-99a0-f033ebc48f52",
+          "ordinal": 2,
+          "name": "Manual",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS NIMES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",

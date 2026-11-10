@@ -2,7 +2,7 @@
     "name": "LFEE Reims FIR",
     "id": "35457410-afe2-4272-9adb-d149385a3d10",
     "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFEE.json",
-    "updateSerial": 2026102901,
+    "updateSerial": 2026110801,
     "stations": [
         {
             "id": "4fd50b0e-5eef-4ef9-91af-6c7a46ebb227",
@@ -2038,6 +2038,40 @@
                     "airportConditions": "",
                     "notams": "",
                     "template": "",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "47c51426-52d4-46ba-b68c-5680f29a3d9b",
+                    "ordinal": 8,
+                    "name": "--- Custom ---",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "d2d61211-b5e1-4c03-ac41-1b9b864d3f13",
+                    "ordinal": 9,
+                    "name": "Manual",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "BONJOUR THIS IS COLMAR INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4113,6 +4147,40 @@
                     "airportConditions": "",
                     "notams": "",
                     "template": "BONJOUR THIS IS DOLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP ILS RWY05 FOLLOWED BY CIRCLING RWY23. RWY23 IN USE. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "a5c8bbff-e306-4a0b-abd9-b6e6e0867ea2",
+                    "ordinal": 8,
+                    "name": "--- Custom ---",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "3f1e65c9-0bd3-47d1-9288-a6f41247cba8",
+                    "ordinal": 9,
+                    "name": "Manual",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "BONJOUR THIS IS DOLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -6234,6 +6302,40 @@
                     "airportConditions": "",
                     "notams": "",
                     "template": "BONJOUR THIS IS LORRAINE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP NDB_X RWY22. RWY22 IN USE. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "41a8dbce-dfb0-42b9-9a81-1aff9a0e469a",
+                    "ordinal": 11,
+                    "name": "--- Custom ---",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "c2830bf5-ac31-46d5-a665-b2e1e528eede",
+                    "ordinal": 12,
+                    "name": "Manual",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "BONJOUR THIS IS LORRAINE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -8463,6 +8565,40 @@
                         "approaches": "",
                         "remarks": ""
                     }
+                },
+                {
+                    "id": "3a0a5508-72b2-4987-9e3a-0f733585ab96",
+                    "ordinal": 15,
+                    "name": "--- Custom ---",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "85150ec1-848d-46d5-a3e8-8e5e9e1f6bc9",
+                    "ordinal": 16,
+                    "name": "Manual",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "BONJOUR THIS IS BALE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] SID 8S 8T. [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
                 }
             ],
             "contractions": [
@@ -10617,6 +10753,40 @@
                     "airportConditions": "",
                     "notams": "",
                     "template": "STRASBOURG GOOD DAY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT APP VORDME. RWY IN USE ^23. [ARPT_COND] [TL] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING] ",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "0d0b5039-d167-4528-81a7-61a282b5df2d",
+                    "ordinal": 9,
+                    "name": "--- Custom ---",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "eba0f6a1-c949-48bb-8add-8255a718af82",
+                    "ordinal": 10,
+                    "name": "Manual",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "STRASBOURG GOOD DAY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. [ARPT_COND] [TL] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING] ",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
