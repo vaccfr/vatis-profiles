@@ -8664,8 +8664,8 @@
                 },
                 {
                     "variableName": "PDC_ACTIVE",
-                    "text": "DATALINK CLEARANCE AVAILABLE LFSB.",
-                    "voice": "DATALINK CLEARANCE AVAILABLE LFSB"
+                    "text": "DATALINK CLEARANCE AVAILABLE LFXX.",
+                    "voice": "DATALINK CLEARANCE AVAILABLE LFXX"
                 },
                 {
                     "variableName": "SID",

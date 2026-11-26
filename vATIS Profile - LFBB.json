@@ -4272,8 +4272,8 @@
                 },
                 {
                     "variableName": "PDC_ACTIVE",
-                    "text": "DATALINK CLEARANCE AVAILABLE LFBD.",
-                    "voice": "DATALINK CLEARANCE AVAILABLE LFBD"
+                    "text": "DATALINK CLEARANCE AVAILABLE LFXX.",
+                    "voice": "DATALINK CLEARANCE AVAILABLE LFXX"
                 }
             ],
             "airportConditionDefinitions": [],
@@ -15024,8 +15024,8 @@
                 },
                 {
                     "variableName": "PDC_ACTIVE",
-                    "text": "DATALINK CLEARANCE AVAILABLE LFBO",
-                    "voice": "DATALINK CLEARANCE AVAILABLE LFBO"
+                    "text": "DATALINK CLEARANCE AVAILABLE LFXX",
+                    "voice": "DATALINK CLEARANCE AVAILABLE LFXX"
                 },
                 {
                     "variableName": "CDM_ACTIVE",

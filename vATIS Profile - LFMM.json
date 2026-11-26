@@ -18984,8 +18984,8 @@
         },
         {
           "variableName": "PDC_ACTIVE",
-          "text": "DATALINK CLEARANCE AVAILABLE LFLL",
-          "voice": "DATALINK CLEARANCE AVAILABLE LFLL."
+          "text": "DATALINK CLEARANCE AVAILABLE LFXX",
+          "voice": "DATALINK CLEARANCE AVAILABLE LFXX."
         },
         {
           "variableName": "CDM_ACTIVE",
@@ -33506,8 +33506,8 @@
         },
         {
           "variableName": "PDC_ACTIVE",
-          "text": "DATALINK CLEARANCE AVAILABLE LFML.",
-          "voice": "DATALINK CLEARANCE AVAILABLE LFML"
+          "text": "DATALINK CLEARANCE AVAILABLE LFXX.",
+          "voice": "DATALINK CLEARANCE AVAILABLE LFXX"
         },
         {
           "variableName": "CDM_ACTIVE",
@@ -35804,8 +35804,8 @@
         },
         {
           "variableName": "PDC_ACTIVE",
-          "text": "DATALINK CLEARANCE AVAILABLE LFMN",
-          "voice": "DATALINK CLEARANCE AVAILABLE LFMN"
+          "text": "DATALINK CLEARANCE AVAILABLE LFXX",
+          "voice": "DATALINK CLEARANCE AVAILABLE LFXX"
         },
         {
           "variableName": "CDM_ACTIVE",
